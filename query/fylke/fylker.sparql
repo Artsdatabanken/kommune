@@ -1,0 +1,17 @@
+# Opplysninger om Norske fylker
+SELECT ?item ?itemLabel ?inception ?elevation ?flag ?banner ?coa ?article ?url ?osm ?image WHERE {
+  ?item wdt:P31 wd:Q192299.
+  OPTIONAL { ?item wdt:P2044 ?elevation. }
+  OPTIONAL { ?item wdt:P856 ?url. }
+  OPTIONAL { ?item wdt:P94 ?coa. }
+  OPTIONAL { ?item wdt:P41 ?flag. }
+  OPTIONAL { ?item wdt:P948 ?banner. }
+  OPTIONAL { ?item wdt:P571 ?inception. }
+  OPTIONAL { ?item wdt:P402 ?osm. }
+  OPTIONAL {
+    ?article schema:about ?item;
+      schema:isPartOf <https://no.wikipedia.org/>.
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+  OPTIONAL { ?item wdt:P18 ?image. }
+}

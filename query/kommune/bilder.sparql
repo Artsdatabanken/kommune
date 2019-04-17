@@ -1,0 +1,9 @@
+# Bilder av kommuner
+SELECT ?kommune ?image ?banner  WHERE {
+    ?kommune wdt:P31 wd:Q755707;
+      wdt:P18 ?image.
+    OPTIONAL {
+      ?kommune wdt:P948 ?banner.
+    }
+  }
+ORDER BY ?kommune

@@ -1,0 +1,2317 @@
+{
+  "head": { "vars": ["kommune", "image"] },
+  "results": {
+    "bindings": [
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q101341"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/LillehammerDSC01504.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q104095"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Molde%20seilet%20cruise.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q104379"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Vads%C3%B8%2020080718.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q104400"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hamar%20from%20air.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q107135"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fredrikstad%20bryggepromenade%20fra%20Kr%C3%A5ker%C3%B8ybroa.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q107351"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hammerfest%20Juni%202005.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q107392"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Brygga%20i%20T%C3%B8nsberg.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q107396"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leikanger%20hermansverk.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q108025"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sarpsborg%20r%C3%A5dhus.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q108031"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gj%C3%B8vik%20sett%20fra%20Nordlia.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q108966"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mandal%20sentrum%20sett%20fra%20Hobdetoppen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q108983"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vard%C3%B8%20by.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q108988"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kongsberg%20Vestsida.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q108999"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/RorosViewFromSlagHeaps.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109005"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/ByskolenSandefjord.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109021"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Moss%2C%20Norway.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109025"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hopsoe.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109031"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vossavangen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109036"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Haraldsgata%205844.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109042"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Halden%20Fra%20Festningen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109048"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Norwegian%20Naval%20Museum%20Horten.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109140"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leiret%20Elverum.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109483"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Storkaia%20Kristiansund.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109494"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/ODDA.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q109499"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tr%C3%A5stadberget%20from%20south.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q110311"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Storgata%20Hokksund.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q110431"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Steinkjer.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q110848"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Honefoss%20flyfoto3.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q111039"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Namsos%20waterfront.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q112855"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Br%C3%B8nn%C3%B8ysund%20Juni%202005.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113538"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Torpo%20church%20and%20Stave%20Church%2C%20Torpo%2C%20Buskerud%2C%20Norway%20-%20jpfagerback%20-%202015-11-22%20-%20d7-0486-0496.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113571"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Frahafstadfjellet.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113595"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/OppdalFromAlmannberget.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113638"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jondal%2C%20Hardanger%2C%20Hordaland%2C%20Norway%20-%20panoramio.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113682"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hindnesfjorden%20ved%20Veland.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113697"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hav%C3%B8ysund%20winter.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113710"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Andenes%2C%20Norway%202006.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113720"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B8yanger%20med%20kirken%20II.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q113729"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mehamn.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1215658"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Narvi%2002.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q130048"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Roest%20Isle%20DSC%201134.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q156125"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Larvik%20%2814387497427%29.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q175704"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Gratangen%20HDR.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q202605"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mo%202.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q215374"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ask%20church%2C%20Ask%C3%B8y%2021may2006.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q216430"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kirkegata%20i%20Levanger.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q217802"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mot%20Stjoerdal.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q217808"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tj%C3%B8tta.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q221119"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bod%C3%B8%202006.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q252381"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dyroya.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q255148"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gjesdal%20Norwegen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q270835"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aafjorden%20i%20Fosen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q271063"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordre-Osen-Old-Church-%C3%85mot-Norway.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q271140"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%98vre%20%C3%85rdal.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q303521"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vik%20Sogn%20og%20Fjordane%202009.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q308260"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sjoholt2-Norway-HH.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q308420"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%98stre%20Toten.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q316779"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96yer%20Jemne%20gaard%20IMG%201508.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q473529"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Misje.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483871"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Holmestrand.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483877"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bilde%20av%20Egersund.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483885"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Repv%C3%A5g.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483902"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Karmoy%20Karmsund%20Haugesund%205.19379E%2059.27570N.png"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483964"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanaelva%20River%20Bridge%20Tana.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483977"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/P1000532Eidfjord.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483986"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nesbyen%20Kirche.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484008"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Marstein%20lighthouse2.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484012"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%201146a%20-%20B%C3%B8%20kirke.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484043"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Stokmarknes%20winter.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484043"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%200698a%20-%20Hadsel%20kirke.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484070"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kvinnheradkirke04.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484080"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mongstad.1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484088"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Royrvik.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484111"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A5holmen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484119"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sula%20in%20Fr%C3%B8ya1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484186"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Granvin%20bruk.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484218"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Storsjoen%20Odal.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484243"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lysoysund%20i%20bjugn.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484309"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Forsand%20%28UBT-TO-072743%2001%201%29.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q484313"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Barmen.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q485297"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Saudafjorden.png"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q485608"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Varhaug%20Gamle%20Kirkeg%C3%A5rd.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q486677"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dovre%20panorama.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q486700"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vassbygdevatnet%2C%20Norge.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q486717"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordkjosbotn.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q487538"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%B8mmernes.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q487636"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Reine%20Lofoten.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q487711"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ulvik%20med%20tilliggande%20herligheiter%20II.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488026"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingeborgrud%20kirkested.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488054"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8r-Fron%20kirke%201.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488067"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Oster%C3%B6y%20S%C3%B6rfjorden%20Trengereid%20IMG%203726.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488234"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kvittingen1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488247"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Halsa.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488258"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibestad%20Gratangen%20IMG%204900%20rolla%20island%20gratangen.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488375"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Neshrbr.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488380"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Midsund.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488395"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lom%20stave%20church.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488611"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Verket%20Hurum.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488622"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hole%20in%20Norway.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488747"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Knaben%20gruvor.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488747"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Utsikten.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488747"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kvinesdal%20utvandrerfestivalen%202002.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488747"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Liknes%2C%20Kvinesdal%20kommune%202010.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488762"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Melhus%20sentrum.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488779"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tynset%20fra%20bygda.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488955"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Istind%20troms%20norway.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488959"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Zwischen%20Alta%20%26%20Narvik%20Norwegen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488966"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Manger%2029%20To%20Bergen%20%285672350914%29.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q488975"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Laerdalsoyri01.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q489038"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lindesnes%20Knarvika%20wwii%20bunker%20rocks%20ID%20169896.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q489342"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aukra%20kirke%20fra%20KMB.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q489347"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lov%C3%B8yg%C3%A5rden.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q489351"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Alvestadkroken.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q489362"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Solstad%20kirko%2020150911%2000197%20NB%20WF%20BDK%20141792.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q489374"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Frosta%20sett%20fra%20Hellan.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490038"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Evenskjer.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q490462"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Farsund%20-%20daybreak.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q492115"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%B8dem%20on%20Randaberg.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493007"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A1hkker%C3%A1vju%20Kvalsund%20from%20the%20southeast.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493273"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hestad%20kapell.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493292"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Holmen%20Balestrand.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493315"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Setermoen%20panorama.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493481"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flekkefjord-Nirwana.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493932"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/De%20sju%20s%C3%B8stre%20sett%20fra%20Her%C3%B8y%2C%20Nordland%20%282007-07-07%29.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493942"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A5fjord%20Olderdalen.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493981"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Time%20kyrkjestad.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q493988"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Malvik%20IMG%206169%20stav%20midtsanden.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494018"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lyngseidet-kjosen-lyngen-alps.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494024"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/KvitsoyHouses.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494037"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hyllestad%20sentrum.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494045"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Askjesundet%20bru.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494059"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordreisa%20Zentrum.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494062"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nesna1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494670"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Utsyn%20over%20Giske.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q494688"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Seierstad%20J%C3%B8a.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499429"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aure-Aure-Norway.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5leKirke20080101-1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vivestad%20kirke.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Revetal%20kommunesenter.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Holt%20i%20Re%20kom.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Magnus%20Erlingssons%20saga-Slaget%20paa%20Re-Werenskiold.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramnes.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Undrumsdal%20kirke%20-%20front.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499570"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/UndrumsdalKirke2.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499761"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ranem%20Church.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q499770"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Trollvika.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q500194"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sjovegan%20from%20Hogfjell.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q500227"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vennesla.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q501401"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8gne%20gml%20presteg%C3%A5rd2.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q501510"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Rovdefjorden.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q501518"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Brandbukampen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q502217"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lavangen%20from%20Skavneskollen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q503591"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Steinstid%20sommer.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q503622"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Naustdal%20sentrum.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q503654"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Drevjedalen-2006-07-15.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q503912"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bergsbotnen-2011.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q504817"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Askvoll%20gjelsvik.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q505956"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Songdalen%20Kvislevann%20Postveien.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q507201"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/2010-08-03%20-%20Leknes%20-%20Vestv%C3%A5g%C3%B8y%20-%20Lofoten%20-%20panoramio.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q507509"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Steingjerde%20Sotra%20%28sauegjerde%29Muret.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q507549"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gata%20Tolga.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q649541"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kv%C3%A6fjord%20fra%20Raudmoldheia.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q88810"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Krk-Froland.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90590"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Grimstad%20078.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90593"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lillesandskyline12.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90595"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ris%C3%B8r%20Krantoppen%20august%202017%20%284%29.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90597"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tvedestrand%20Brygga%202000.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90598"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Landscape%20Setesdal%20-%202%20%282705360655%29.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1825"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaarasjoki.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2272"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bryggevannet%20og%20Hjellevannet%20-%20Skien.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2290"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Porsgrunn%20Vestsida.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2326"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Notodden%20dark.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2365"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/P1000747Rjukan.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2372"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Krager%C3%B81.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2375"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ulefoss%20panorama.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2415"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristiansand%2C%20Norway.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25416"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Stavanger%2C%20Norway.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q25416"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vaagen-modf.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26087"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tromso%20Troms%C3%B8%20Norway%20tunliweb%2002.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26525"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Drammen.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q26793"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fl%C3%B8yen%20view%20on%20Bergen%20edit.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q27587"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sandnes.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48265"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/PanoramaSkodjebroene.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48276"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Rorbu%20in%20Lauvsnes.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48323"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%98rnes%20winter.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48501"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Stranda-Norway-HH.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48508"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sykkylven.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48518"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ryvarden%20from%20the%20air.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48521"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%98ksendal.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48542"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Stange%20sentrum.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48577"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Suldal%20ved%20Herabakka.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48581"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Morgen%20i%20Medby.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48591"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jorpeland.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48597"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tranoey.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48620"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tr%C3%A6na.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48657"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Skibotn%20harbor%20and%20camping%20area.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48678"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Trogstad%20kommune%20M%C3%B8rk.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48696"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jakobsbakken.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48701"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Svelvik.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48717"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vestre%20Toten%20kart.png"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48728"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Torsvaag%20kaaja.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48750"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Finn%C3%B8y%20fields.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48750"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sjernar%C3%B8y.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48760"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lebesby%20Ifjordfjellet.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48794"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ona1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48813"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Batsfjord-1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48827"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/N886-Grense-Jakobselv-2012-07-06-12-00-21.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48827"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/N886-Grense-Jakobselv-2012-07-06-12-00-36.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48848"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Oeksfjord.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48870"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/NO%201822%20Leirfjord.svg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q48886"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kr%C3%B8deren1.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5223"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Stryn.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q54062"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/UMB%20Aas%2002.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q56869"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Asker%20raadhus%20main%20entrance%202010%2005%2030.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57080"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Eidsvoll%20Norway.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57082"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fetsund%26bru.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57083"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr%C3%B8bak%20Nordstranda.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57084"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gjerdrum%20kulturhus.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57858"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Trafikkinferno%20Grue%20Hurdal%20-%2011.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57860"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%B8renskog%20kirke%2020080614-2.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57862"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nannestad%20kommune.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57864"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Oksval.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57914"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8rumsand%20stasjon%20Tertitten.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57917"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Herredshuset%20Ullensaker.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57919"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Arendal%20Utsikt%2002.JPG"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q585"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Oslo%20city%20in%2010%20images.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q62140"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Harstad2.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q62266"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Aalesund%20from%20Fjellstua.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q62641"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Honningsv%C3%A5g.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6459"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Beaivv%C3%A1%C5%A1%20S%C3%A1mi%20Theatre%20Kautokeino%202014.jpg"
+        }
+      },
+      {
+        "kommune": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6535"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bilde-Alta%20boligomraade.jpg"
+        }
+      }
+    ]
+  }
+}
