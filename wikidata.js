@@ -1,27 +1,26 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
 const path = require("path");
+const { http } = require("lastejobb");
 
 // Query-verktøy på https://query.wikidata.org/
 
 const endpointUrl = "https://query.wikidata.org/sparql";
 
-function query(sparqlQuery) {
+async function query(sparqlQuery, destFile) {
   const fullUrl = endpointUrl + "?query=" + encodeURIComponent(sparqlQuery);
-  const headers = { Accept: "application/sparql-results+json" };
-
-  return fetch(fullUrl, { headers }).then(body => body.json());
+  debugger;
+  return await http.downloadJson2File(fullUrl, destFile);
 }
 
-function queryFromFile(sparqlFilePath) {
+function queryFromFile(sparqlFilePath, destFile) {
   const queryText = fs.readFileSync(sparqlFilePath);
-  const destPath = sparqlFilePath
-    .replace("./query", "./build")
-    .replace("sparql", "json");
-  fs.mkdirSync(path.dirname(destPath), { recursive: true });
-  query(queryText).then(json => {
+  return query(
+    queryText,
+    destFile
+  ); /*.then(json => {
     fs.writeFileSync(destPath, JSON.stringify(json));
-  });
+  });*/
 }
 
 module.exports = { query, queryFromFile };

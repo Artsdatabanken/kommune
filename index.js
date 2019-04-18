@@ -1,4 +1,3 @@
-const wikidata = require("./wikidata");
+const { kjørLastejobberUnder } = require("lastejobb");
 
-//wikidata.queryFromFile("./query/kommune/kommuner.sparql");
-//wikidata.queryFromFile("./query/kommune/bilder.sparql");
+kjørLastejobberUnder("script/");

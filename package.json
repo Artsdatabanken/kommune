@@ -10,6 +10,8 @@
   "author": "Bjorn Reppen <bjreppen@gmail.com> (https://github.com/bjornreppen)",
   "license": "ISC",
   "dependencies": {
+    "lastejobb": "file:../lastejobb",
+    "log-less-fancy": "^1.4.0",
     "node-fetch": "^2.3.0"
   }
 }
