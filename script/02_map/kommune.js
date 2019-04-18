@@ -5,7 +5,17 @@ const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
 const r = lesKommunerFraWikidata();
 flettMedNabokommuner(r);
 flettMedBilder(r);
-io.skrivBuildfil("kommune", r);
+const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
+io.skrivBuildfil("kommune", medNummerSomNøkkel);
+
+function mapTilNummerSomNøkkel(r) {
+  return Object.keys(r).reduce((acc, key) => {
+    const e = r[key];
+    acc[e.kommunenr] = e;
+    delete e.kommunenr;
+    return acc;
+  }, {});
+}
 
 function lesKommunerFraWikidata() {
   const kommune = lesSparqlOutput("kommune");
@@ -15,6 +25,7 @@ function lesKommunerFraWikidata() {
       kommunenr: e.code.value,
       wikipedia: value(e.article),
       wikidata: e.item.value,
+      elevation: value(e.elevation),
       url: value(e.url),
       bilde: { coa: value(e.coa) }
     };
