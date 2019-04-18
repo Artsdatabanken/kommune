@@ -1,7 +1,7 @@
 # Opplysninger om Norske kommuner
-SELECT ?item ?itemLabel ?knr ?inception ?elevation ?flag ?banner ?coa ?article ?url ?osm WHERE {
+SELECT ?code ?item ?itemLabel ?inception ?elevation ?flag ?banner ?coa ?article ?url ?osm WHERE {
   ?item wdt:P31 wd:Q755707;
-    wdt:P2504 ?knr.
+    wdt:P2504 ?code
   OPTIONAL { ?item wdt:P2044 ?elevation. }
   OPTIONAL { ?item wdt:P856 ?url. }
   OPTIONAL { ?item wdt:P94 ?coa. }

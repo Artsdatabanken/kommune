@@ -12,7 +12,7 @@ function lesKommunerFraWikidata() {
   const r = {};
   kommune.forEach(e => {
     const k = {
-      kommunenr: e.knr.value,
+      kommunenr: e.code.value,
       wikipedia: value(e.article),
       wikidata: e.item.value,
       url: value(e.url),
