@@ -2,8 +2,8 @@ const { io, log } = require("lastejobb");
 
 const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
 
-const r = lesKommunerFraWikidata();
-flettMedNabokommuner(r);
+const r = lesElementer();
+flettNaboer(r);
 flettMedBilder(r);
 const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
 io.skrivBuildfil("kommune", medNummerSomNøkkel);
@@ -19,18 +19,18 @@ function mapTilNummerSomNøkkel(r) {
   }, {});
 }
 
-function lesKommunerFraWikidata() {
-  const kommune = lesSparqlOutput("kommune");
+function lesElementer() {
+  const elementer = lesSparqlOutput("kommune");
   const r = {};
-  kommune.forEach(e => {
+  elementer.forEach(e => {
     const k = {
-      code: e.code.value,
       wikidata: e.item.value,
       bilde: { image: [], banner: [] }
     };
     add(k, "label", e.itemLabel);
     add(k, "inception", e.inception);
     add(k, "dissolved", e.dissolved);
+    add(k, "code", e.code);
     add(k, "wikipedia", e.article);
     add(k, "elevation", e.elevation);
     add(k, "url", e.url);
@@ -49,7 +49,7 @@ function add(o, key, field) {
   if (value) o[key] = value;
 }
 
-function flettMedNabokommuner(r) {
+function flettNaboer(r) {
   const nabo = lesSparqlOutput("kommunenabo");
   nabo.forEach(e => {
     const id = e.kommune.value;

@@ -2,8 +2,8 @@ const { io, log } = require("lastejobb");
 
 const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
 
-const r = lesFylkerFraWikidata();
-flettMedNabofylker(r);
+const r = lesElementer();
+flettNaboer(r);
 flettMedBilder(r);
 const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
 io.skrivBuildfil("fylke", medNummerSomNøkkel);
@@ -19,10 +19,10 @@ function mapTilNummerSomNøkkel(r) {
   }, {});
 }
 
-function lesFylkerFraWikidata() {
-  const fylke = lesSparqlOutput("fylke");
+function lesElementer() {
+  const elementer = lesSparqlOutput("fylke");
   const r = {};
-  fylke.forEach(e => {
+  elementer.forEach(e => {
     const k = {
       wikidata: e.item.value,
       bilde: { image: [], banner: [] }
@@ -32,8 +32,10 @@ function lesFylkerFraWikidata() {
     add(k, "dissolved", e.dissolved);
     add(k, "code", e.code);
     add(k, "wikipedia", e.article);
+    add(k, "elevation", e.elevation);
     add(k, "url", e.url);
     add(k.bilde, "coa", e.coa);
+
     r[k.wikidata] = k;
   });
   return r;
@@ -47,7 +49,7 @@ function add(o, key, field) {
   if (value) o[key] = value;
 }
 
-function flettMedNabofylker(r) {
+function flettNaboer(r) {
   const nabo = lesSparqlOutput("fylkenabo");
   nabo.forEach(e => {
     const id = e.fylke.value;
@@ -64,7 +66,6 @@ function flettMedBilder(r) {
   bilde.forEach(e => {
     const id = e.fylke.value;
     const fra = r[id];
-    if (!fra) debugger;
     const bilder = fra.bilde;
     const image = value(e.image);
     if (image) bilder.image.push(image);
