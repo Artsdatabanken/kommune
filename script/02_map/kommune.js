@@ -40,11 +40,10 @@ function flettMedBilder(r) {
   const bilde = lesSparqlOutput("kommunebilde");
   bilde.forEach(e => {
     const id = e.kommune.value;
-    const image = value(e.image);
-    const banner = value(e.banner);
     const fra = r[id];
-    fra.bilde.forside = image;
-    fra.bilde.banner = banner;
+    const bilder = fra.bilde;
+    bilder.image = [...(bilder.image || []), value(e.image)];
+    bilder.banner = [...(bilder.banner || []), value(e.banner)];
   });
 }
 
