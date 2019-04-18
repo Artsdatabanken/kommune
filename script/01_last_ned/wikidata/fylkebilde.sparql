@@ -1,9 +1,9 @@
 # Bilder av fylker
-SELECT ?fylke ?image ?banner  WHERE {
-    ?fylke wdt:P31 wd:Q192299;
+SELECT ?item ?image ?banner  WHERE {
+    ?item wdt:P31 wd:Q192299;
       wdt:P18 ?image.
     OPTIONAL {
-      ?fylke wdt:P948 ?banner.
+      ?item wdt:P948 ?banner.
     }
   }
-ORDER BY ?fylke
+ORDER BY ?item

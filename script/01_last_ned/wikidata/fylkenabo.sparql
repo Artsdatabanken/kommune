@@ -1,6 +1,6 @@
 # fylker som grenser til fylke
-SELECT ?fylke ?shares_border_with WHERE {
-  ?fylke wdt:P31 wd:Q192299;
+SELECT ?item ?shares_border_with WHERE {
+  ?item wdt:P31 wd:Q192299;
     wdt:P2504 ?fnr.
-  OPTIONAL { ?fylke wdt:P47 ?shares_border_with. }
+  OPTIONAL { ?item wdt:P47 ?shares_border_with. }
 }

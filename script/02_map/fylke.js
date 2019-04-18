@@ -52,10 +52,10 @@ function add(o, key, field) {
 function flettNaboer(r) {
   const nabo = lesSparqlOutput("fylkenabo");
   nabo.forEach(e => {
-    const id = e.fylke.value;
+    const id = e.item.value;
     const fra = r[id];
     const til = r[value(e.shares_border_with)];
-    if (!til) return; // fylken ligger ikke i Norge
+    if (!til) return; // ligger ikke i Norge
 
     fra.naboer = [...(fra.naboer || []), til.code];
   });
@@ -64,7 +64,7 @@ function flettNaboer(r) {
 function flettMedBilder(r) {
   const bilde = lesSparqlOutput("fylkebilde");
   bilde.forEach(e => {
-    const id = e.fylke.value;
+    const id = e.item.value;
     const fra = r[id];
     const bilder = fra.bilde;
     const image = value(e.image);
