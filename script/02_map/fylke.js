@@ -12,6 +12,7 @@ function lesFylkerFraWikidata() {
   const r = {};
   fylke.forEach(e => {
     const k = {
+      label: value(e.itemLabel),
       inception: value(e.inception),
       dissolved: value(e.dissolved),
       fylkenr: value(e.code),

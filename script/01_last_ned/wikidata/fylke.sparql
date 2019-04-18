@@ -14,6 +14,9 @@ SELECT ?code ?item ?itemLabel ?inception ?dissolved ?elevation ?flag ?banner ?co
     ?article schema:about ?item;
       schema:isPartOf <https://no.wikipedia.org/>.
   }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+ SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "nb".
+    ?item rdfs:label ?itemLabel.
+  }
   OPTIONAL { ?item wdt:P18 ?image. }
 }
