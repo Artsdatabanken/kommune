@@ -1,5 +1,5 @@
 {
-  "name": "kommuner",
+  "name": "kommune-lastejobb",
   "version": "1.0.0",
   "description": "",
   "main": "test.js",
@@ -10,8 +10,7 @@
   "author": "Bjorn Reppen <bjreppen@gmail.com> (https://github.com/bjornreppen)",
   "license": "ISC",
   "dependencies": {
-    "lastejobb": "file:../lastejobb",
-    "log-less-fancy": "^1.4.0",
+    "lastejobb": "^1.0.0",
     "node-fetch": "^2.3.0"
   }
 }
