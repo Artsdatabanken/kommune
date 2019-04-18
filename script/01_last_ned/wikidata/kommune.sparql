@@ -1,7 +1,8 @@
 # Opplysninger om Norske kommuner
-SELECT ?code ?item ?itemLabel ?inception ?elevation ?coa ?article ?url ?osm WHERE {
+SELECT ?code ?item ?itemLabel ?title ?inception ?elevation ?coa ?article ?url ?osm WHERE {
   ?item wdt:P31 wd:Q755707;
     wdt:P2504 ?code
+      OPTIONAL { ?item wdt:P1476 ?title. }
   OPTIONAL { ?item wdt:P2044 ?elevation. }
   OPTIONAL { ?item wdt:P856 ?url. }
   OPTIONAL { ?item wdt:P94 ?coa. }
@@ -11,7 +12,8 @@ SELECT ?code ?item ?itemLabel ?inception ?elevation ?coa ?article ?url ?osm WHER
     ?article schema:about ?item;
       schema:isPartOf <https://no.wikipedia.org/>.
   }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
-
-}
+ SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "nb".
+    ?item rdfs:label ?itemLabel.
+  }}
 ORDER BY ?knr
