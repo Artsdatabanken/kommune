@@ -11,8 +11,8 @@ function konverter(nivå) {
 }
 
 function mapTilNummerSomNøkkel(r) {
-  return Object.keys(r).reduce((acc, key) => {
-    const e = r[key];
+  const values = Object.values(r);
+  return values.reduce((acc, e) => {
     if (e.dissolved < new Date()) return acc;
     if (e.inception > new Date()) return acc;
     acc[e.code] = e;
