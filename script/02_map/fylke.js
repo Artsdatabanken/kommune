@@ -5,26 +5,46 @@ const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
 const r = lesFylkerFraWikidata();
 flettMedNabofylker(r);
 flettMedBilder(r);
-io.skrivBuildfil("fylke", r);
+const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
+io.skrivBuildfil("fylke", medNummerSomNøkkel);
+
+function mapTilNummerSomNøkkel(r) {
+  return Object.keys(r).reduce((acc, key) => {
+    const e = r[key];
+    if (e.dissolved < new Date()) return acc;
+    if (e.inception > new Date()) return acc;
+    acc[e.code] = e;
+    delete e.code;
+    return acc;
+  }, {});
+}
 
 function lesFylkerFraWikidata() {
   const fylke = lesSparqlOutput("fylke");
   const r = {};
   fylke.forEach(e => {
     const k = {
-      label: value(e.itemLabel),
-      inception: value(e.inception),
-      dissolved: value(e.dissolved),
-      fylkenr: value(e.code),
-      wikipedia: value(e.article),
       wikidata: e.item.value,
-      url: value(e.url),
-      bilde: { coa: value(e.coa) }
+      bilde: { image: [], banner: [] }
     };
-    if (k.dissolved) debugger;
+    add(k, "label", e.itemLabel);
+    add(k, "inception", e.inception);
+    add(k, "dissolved", e.dissolved);
+    add(k, "code", e.code);
+    add(k, "wikipedia", e.article);
+    add(k, "url", e.url);
+    add(k.bilde, "coa", e.coa);
     r[k.wikidata] = k;
   });
   return r;
+}
+
+function add(o, key, field) {
+  if (!field) return;
+  let value = field.value;
+  if (field.datatype === "http://www.w3.org/2001/XMLSchema#dateTime")
+    value = new Date(value);
+  if (value) o[key] = value;
 }
 
 function flettMedNabofylker(r) {
@@ -35,7 +55,7 @@ function flettMedNabofylker(r) {
     const til = r[value(e.shares_border_with)];
     if (!til) return; // fylken ligger ikke i Norge
 
-    fra.naboer = [...(fra.naboer || []), til.fylkenr];
+    fra.naboer = [...(fra.naboer || []), til.code];
   });
 }
 
@@ -44,9 +64,12 @@ function flettMedBilder(r) {
   bilde.forEach(e => {
     const id = e.fylke.value;
     const fra = r[id];
+    if (!fra) debugger;
     const bilder = fra.bilde;
-    bilder.image = [...(bilder.image || []), value(e.image)];
-    bilder.banner = [...(bilder.banner || []), value(e.banner)];
+    const image = value(e.image);
+    if (image) bilder.image.push(image);
+    const banner = value(e.banner);
+    if (banner) bilder.banner.push(banner);
   });
 }
 
