@@ -1,10 +1,18 @@
-Lastejobb for Norske fylker og kommuner.  Datasettet som er resultatet av lastejobben ligger på []()
+Lastejobb for data om Norske fylker og kommuner ikke inklusive kartdata.
 
-## In use by
+## Datasett
+
+Datasettet som er resultatet av lastejobben havner i repo [kommune-data](https://github.com/Artsdatabanken/kommune-data) og leses derfra av prosjekter som bruker datasettet.
+
+## Dataene brukes blant annet av
 
 * [Natur i Norge kart](https://github.com/Artsdatabanken/nin-kart-frontend)
 * [Artsdatabanken åpne data](https://data.artsdatabanken.no/)
 
-## Using open data from (thanks to)
+## Baserer seg på åpne data fra (takk til)
 
-* Wikipedia
+* [Wikipedia](https://no.wikipedia.org)
+
+## Avhenger av
+
+* [Lastejobb](https://github.com/Artsdatabanken/lastejobb) (library)
