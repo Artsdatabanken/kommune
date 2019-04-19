@@ -1,5 +1,5 @@
 # Kommuner som grenser til kommune
-SELECT ?item ?shares_border_with WHERE {
+SELECT * WHERE {
   ?item wdt:P31 wd:Q755707;
     wdt:P2504 ?knr.
   OPTIONAL { ?item wdt:P47 ?shares_border_with. }

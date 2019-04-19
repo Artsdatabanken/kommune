@@ -1,5 +1,5 @@
 # Opplysninger om Norske kommuner
-SELECT ?code ?item ?itemLabel ?title ?inception ?dissolved ?elevation ?coa ?article ?url ?osm WHERE {
+SELECT * WHERE {
   ?item wdt:P31 wd:Q755707;
     wdt:P2504 ?code
       OPTIONAL { ?item wdt:P1476 ?title. }

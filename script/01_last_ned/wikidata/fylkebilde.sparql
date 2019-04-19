@@ -1,5 +1,5 @@
 # Bilder av fylker
-SELECT ?item ?image ?banner  WHERE {
+SELECT * WHERE {
     ?item wdt:P31 wd:Q192299;
       wdt:P18 ?image.
     OPTIONAL {

@@ -1,5 +1,5 @@
 # Bilder av kommuner
-SELECT ?item ?image ?banner ?flag WHERE {
+SELECT * WHERE {
     ?item wdt:P31 wd:Q755707;
       wdt:P18 ?image.
     OPTIONAL {

@@ -1,5 +1,5 @@
 # Opplysninger om Norske fylker
-SELECT ?code ?item ?itemLabel ?inception ?dissolved ?elevation ?flag ?banner ?coa ?article ?url ?osm ?image WHERE {
+SELECT * WHERE {
   ?item wdt:P31 wd:Q192299;
   OPTIONAL { ?item wdt:P300 ?code. }
   OPTIONAL { ?item wdt:P571 ?inception. }
