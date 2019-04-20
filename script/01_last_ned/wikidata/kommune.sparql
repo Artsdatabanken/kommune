@@ -1,8 +1,6 @@
-# Opplysninger om Norske kommuner
 SELECT * WHERE {
-  ?item wdt:P31 wd:Q755707;
-    wdt:P2504 ?code
-      OPTIONAL { ?item wdt:P1476 ?title. }
+  ?item wdt:P31 wd:Q755707 ;
+  OPTIONAL { ?item wdt:P1476 ?title. }
   OPTIONAL { ?item wdt:P2044 ?elevation. }
   OPTIONAL { ?item wdt:P856 ?url. }
   OPTIONAL { ?item wdt:P94 ?coa. }
@@ -13,8 +11,8 @@ SELECT * WHERE {
     ?article schema:about ?item;
       schema:isPartOf <https://no.wikipedia.org/>.
   }
+#  FILTER(NOT EXISTS{?item wdt:P31 wd:Q515})
  SERVICE wikibase:label {
     bd:serviceParam wikibase:language "nb".
     ?item rdfs:label ?itemLabel.
   }}
-ORDER BY ?knr

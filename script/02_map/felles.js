@@ -56,15 +56,14 @@ function value(e) {
 
 function flettKoder(r, nivå) {
   if (nivå !== "kommune") return;
-  const nabo = lesSparqlOutput(nivå + "nummer");
-  nabo.forEach(e => {
+  const nummer = lesSparqlOutput(nivå + "nummer");
+  nummer.forEach(e => {
     const id = e.kommune.value;
     const item = r[id];
     const fra = value(e.start_time);
-    const til = value(e.start_time);
+    const til = value(e.end_time);
     if (fra && fra > new Date()) return;
     if (til && til < new Date()) return;
-    if (!item) debugger;
 
     item.code = value(e.knr);
   });
