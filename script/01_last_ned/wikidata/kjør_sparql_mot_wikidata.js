@@ -4,7 +4,6 @@ const { io } = require("lastejobb");
 const path = require("path");
 
 const queries = io.findFiles("./script/01_last_ned/wikidata", ".sparql");
-console.log(queries);
 function next() {
   const query = queries.pop();
   if (!query) return;
