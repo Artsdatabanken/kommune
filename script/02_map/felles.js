@@ -7,8 +7,11 @@ function konverter(nivå) {
   flettKoder(r, nivå);
   flettNaboer(r, nivå);
   flettMedBilder(r, nivå);
+  const arr = mapTilArray(r);
+  arr.sort((a, b) => (a.code > b.code ? 1 : -1));
+  debugger;
   const dok = {
-    items: mapTilNummerSomNøkkel(r),
+    items: arr,
     meta: {
       url: `https://github.com/Artsdatabanken/kommune-data/blob/master/${nivå}.json`
     }
@@ -16,16 +19,15 @@ function konverter(nivå) {
   io.skrivBuildfil(nivå, dok);
 }
 
-function mapTilNummerSomNøkkel(r) {
+function mapTilArray(r) {
   const values = Object.values(r);
   return values.reduce((acc, e) => {
     if (e.dissolved < new Date()) return acc;
     if (e.inception > new Date()) return acc;
     if (!e.code) return acc;
-    acc[e.code] = e;
-    delete e.code;
+    acc.push(e);
     return acc;
-  }, {});
+  }, []);
 }
 
 function lesElementer(filnavn, nøkkelfelt) {
@@ -91,12 +93,12 @@ function flettMedBilder(r, nivå) {
   bilde.forEach(e => {
     const id = e.item.value;
     const fra = r[id];
-    fra.image = fra.image || []
-    fra.banner = fra.banner || []
+    fra.images = fra.images || [];
+    fra.banners = fra.banners || [];
     const image = value(e.image);
-    if (image) fra.image.push(image);
+    if (image) fra.images.push(image);
     const banner = value(e.banner);
-    if (banner) fra.banner.push(banner);
+    if (banner) fra.banners.push(banner);
   });
 }
 
