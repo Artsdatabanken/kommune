@@ -1,4 +1,3 @@
-# Opplysninger om Norske fylker
 SELECT * WHERE {
   ?item wdt:P31 wd:Q192299;
   OPTIONAL { ?item wdt:P300 ?code. }

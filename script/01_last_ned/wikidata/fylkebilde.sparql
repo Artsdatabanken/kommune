@@ -1,4 +1,3 @@
-# Bilder av fylker
 SELECT * WHERE {
     ?item wdt:P31 wd:Q192299;
       wdt:P18 ?image.
