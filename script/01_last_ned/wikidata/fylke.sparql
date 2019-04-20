@@ -18,5 +18,4 @@ SELECT * WHERE {
     bd:serviceParam wikibase:language "nb".
     ?item rdfs:label ?itemLabel.
   }
-  OPTIONAL { ?item wdt:P18 ?image. }
 }
