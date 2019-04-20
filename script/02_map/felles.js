@@ -6,8 +6,11 @@ function konverter(nivå) {
   const r = lesElementer(nivå, "item");
   flettNaboer(r, nivå);
   flettMedBilder(r, nivå);
-  const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
-  io.skrivBuildfil(nivå, medNummerSomNøkkel);
+  const dok = {
+    items: mapTilNummerSomNøkkel(r),
+    meta:{url: `https://github.com/Artsdatabanken/kommune-data/blob/master/${nivå}.json`}
+  }
+  io.skrivBuildfil(nivå, dok);
 }
 
 function mapTilNummerSomNøkkel(r) {
