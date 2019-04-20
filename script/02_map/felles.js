@@ -9,7 +9,6 @@ function konverter(nivå) {
   flettMedBilder(r, nivå);
   const arr = mapTilArray(r);
   arr.sort((a, b) => (a.code > b.code ? 1 : -1));
-  debugger;
   const dok = {
     items: arr,
     meta: {
