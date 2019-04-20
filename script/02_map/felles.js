@@ -4,12 +4,15 @@ const lesSparqlOutput = fil => io.lesDatafil(fil).items.results.bindings;
 
 function konverter(nivå) {
   const r = lesElementer(nivå, "item");
+  flettKoder(r, nivå);
   flettNaboer(r, nivå);
   flettMedBilder(r, nivå);
   const dok = {
     items: mapTilNummerSomNøkkel(r),
-    meta:{url: `https://github.com/Artsdatabanken/kommune-data/blob/master/${nivå}.json`}
-  }
+    meta: {
+      url: `https://github.com/Artsdatabanken/kommune-data/blob/master/${nivå}.json`
+    }
+  };
   io.skrivBuildfil(nivå, dok);
 }
 
@@ -18,6 +21,7 @@ function mapTilNummerSomNøkkel(r) {
   return values.reduce((acc, e) => {
     if (e.dissolved < new Date()) return acc;
     if (e.inception > new Date()) return acc;
+    if (!e.code) return acc;
     acc[e.code] = e;
     delete e.code;
     return acc;
@@ -50,14 +54,30 @@ function value(e) {
   return e.value;
 }
 
+function flettKoder(r, nivå) {
+  if (nivå !== "kommune") return;
+  const nabo = lesSparqlOutput(nivå + "nummer");
+  nabo.forEach(e => {
+    const id = e.kommune.value;
+    const item = r[id];
+    const fra = value(e.start_time);
+    const til = value(e.start_time);
+    if (fra && fra > new Date()) return;
+    if (til && til < new Date()) return;
+    if (!item) debugger;
+
+    item.code = value(e.knr);
+  });
+}
+
 function flettNaboer(r, nivå) {
   const nabo = lesSparqlOutput(nivå + "nabo");
   nabo.forEach(e => {
-    const id = e.item.value;
-    const fra = r[id];
-    const til = r[value(e.shares_border_with)];
+    const idFra = e.item.value;
+    const idTil = e.shares_border_with.value;
+    const fra = r[idFra];
+    const til = r[idTil];
     if (!til) return; // ligger ikke i Norge
-
     fra.naboer = [...(fra.naboer || []), til.code];
   });
 }
