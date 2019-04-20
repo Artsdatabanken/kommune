@@ -49,9 +49,14 @@ function map(e) {
 
 function value(e) {
   if (!e) return null;
-  if (e.datatype === "http://www.w3.org/2001/XMLSchema#dateTime")
-    return new Date(e.value);
-  return e.value;
+  switch (e.datatype) {
+    case "http://www.w3.org/2001/XMLSchema#dateTime":
+      return new Date(e.value);
+    case "http://www.w3.org/2001/XMLSchema#decimal":
+      return parseFloat(e.value);
+    default:
+      return e.value;
+  }
 }
 
 function flettKoder(r, nivå) {
@@ -77,7 +82,7 @@ function flettNaboer(r, nivå) {
     const fra = r[idFra];
     const til = r[idTil];
     if (!til) return; // ligger ikke i Norge
-    fra.naboer = [...(fra.naboer || []), til.code];
+    fra.naboer = [...(fra.naboer || []), til.code].sort();
   });
 }
 
