@@ -91,12 +91,12 @@ function flettMedBilder(r, nivå) {
   bilde.forEach(e => {
     const id = e.item.value;
     const fra = r[id];
-    fra.bilde = fra.bilde || { image: [], banner: [] };
-    const bilder = fra.bilde;
+    fra.image = fra.image || []
+    fra.banner = fra.banner || []
     const image = value(e.image);
-    if (image) bilder.image.push(image);
+    if (image) fra.image.push(image);
     const banner = value(e.banner);
-    if (banner) bilder.banner.push(banner);
+    if (banner) fra.banner.push(banner);
   });
 }
 
