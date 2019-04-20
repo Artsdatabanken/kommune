@@ -7,7 +7,7 @@ function konverter(nivå) {
   flettNaboer(r, nivå);
   flettMedBilder(r, nivå);
   const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
-  io.skrivBuildfil(nivå, medNummerSomNøkkel);
+  io.skrivBuildfil(nivå, { items: medNummerSomNøkkel });
 }
 
 function mapTilNummerSomNøkkel(r) {
