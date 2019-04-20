@@ -1,6 +1,4 @@
-# fylker som grenser til fylke
 SELECT * WHERE {
   ?item wdt:P31 wd:Q192299;
-    wdt:P2504 ?fnr.
-  OPTIONAL { ?item wdt:P47 ?shares_border_with. }
+    wdt:P47 ?shares_border_with.
 }
