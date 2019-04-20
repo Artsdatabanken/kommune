@@ -1,13 +1,13 @@
 const { io, log } = require("lastejobb");
 
-const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
+const lesSparqlOutput = fil => io.lesDatafil(fil).items.results.bindings;
 
 function konverter(nivå) {
   const r = lesElementer(nivå, "item");
   flettNaboer(r, nivå);
   flettMedBilder(r, nivå);
   const medNummerSomNøkkel = mapTilNummerSomNøkkel(r);
-  io.skrivBuildfil(nivå, { items: medNummerSomNøkkel });
+  io.skrivBuildfil(nivå, medNummerSomNøkkel);
 }
 
 function mapTilNummerSomNøkkel(r) {
