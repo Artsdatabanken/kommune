@@ -75,4 +75,5 @@ importKommuner()
   })
   .catch(err => {
     log.fatal(err);
+    process.exit(1);
   });
