@@ -7,7 +7,6 @@ SELECT * WHERE {
   OPTIONAL { ?item wdt:P856 ?url. }
   OPTIONAL { ?item wdt:P94 ?coa. }
   OPTIONAL { ?item wdt:P41 ?flag. }
-  OPTIONAL { ?item wdt:P948 ?banner. }
   OPTIONAL { ?item wdt:P402 ?osm. }
   OPTIONAL {
     ?article schema:about ?item;
