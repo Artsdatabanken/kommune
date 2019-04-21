@@ -1,6 +1,8 @@
 SELECT * WHERE {
     ?item wdt:P31 wd:Q755707;
-      wdt:P18 ?image.
+    OPTIONAL {
+      ?item       wdt:P18 ?image.
+    }
     OPTIONAL {
       ?item wdt:P948 ?banner.
     }
