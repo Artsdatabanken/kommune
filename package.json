@@ -5,6 +5,7 @@
   "main": "test.js",
   "scripts": {
     "build": "node index.js",
+    "publish": "echo dummy publish",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
