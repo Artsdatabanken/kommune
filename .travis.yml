@@ -13,4 +13,5 @@ cache:
     - "node_modules"
 
 deploy:
-  - npm run publish
+  provider: script
+  script: npm run publish
