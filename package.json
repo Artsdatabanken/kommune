@@ -2,6 +2,7 @@
   "name": "kommune-lastejobb",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Artsdatabanken/kommune-lastejobb",
   "main": "test.js",
   "scripts": {
     "build": "node index.js",
@@ -11,8 +12,9 @@
   "keywords": [],
   "author": "Bjorn Reppen <bjreppen@gmail.com> (https://github.com/bjornreppen)",
   "license": "ISC",
+  "repository": "https://github.com/Artsdatabanken/naturvern-lastejobb",
   "dependencies": {
-    "lastejobb": "^1.3.2",
+    "lastejobb": "^1.9.3",
     "node-fetch": "^2.3.0"
   }
 }
