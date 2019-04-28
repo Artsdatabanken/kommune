@@ -9,7 +9,7 @@ const endpointUrl = "https://query.wikidata.org/sparql";
 
 async function query(sparqlQuery, destFile) {
   const fullUrl = endpointUrl + "?query=" + encodeURIComponent(sparqlQuery);
-  return await http.downloadJson2File(fullUrl, destFile);
+  return await http.downloadJson(fullUrl, destFile);
 }
 
 function queryFromFile(sparqlFilePath, destFile) {
