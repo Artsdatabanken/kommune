@@ -3,7 +3,7 @@ const { io, log } = require("lastejobb");
 const path = require("path");
 
 const queries = io.findFiles(
-  "./script/02_download_wikimedia/wikidata",
+  "./script/01_download_wikimedia/wikidata",
   ".sparql"
 );
 function next() {

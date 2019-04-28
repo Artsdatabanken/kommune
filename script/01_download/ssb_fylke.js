@@ -16,7 +16,7 @@ function mapFylker(kilde) {
 }
 
 async function importFylker() {
-  let fylker = await http.downloadJson2File(
+  let fylker = await http.downloadJson(
     "https://data.ssb.no/api/klass/v1/versions/916.json?language=nb",
     "ssb_fylke_rå.json"
   );

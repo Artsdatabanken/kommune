@@ -65,7 +65,7 @@ async function importKommuner() {
   const to = dato.toISOString().substring(0, 10); // 2018-01-31
 
   const url = `http://data.ssb.no/api/klass/v1/classifications/131/codes.json?from=${from}&to=${to}`;
-  let kommuner = await http.downloadJson2File(url, "inn_ssb.json");
+  let kommuner = await http.downloadJson(url, "inn_ssb.json");
   return mapKommuner(kommuner.codes);
 }
 
