@@ -8,7 +8,7 @@ function next() {
   if (!query) return;
   log.info("Sparql: " + query);
   wikidata
-    .queryFromFile(query, path.basename(query))
+    .queryFromFile(query, path.parse(query).name)
     .then(r => next())
     .catch(err => {
       log.error(err.message);
