@@ -16,6 +16,6 @@
   "repository": "https://github.com/Artsdatabanken/kommune-lastejobb",
   "dependencies": {
     "lastejobb": "^1.14.0",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.4.1"
   }
 }
