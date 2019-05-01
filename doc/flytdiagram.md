@@ -3,7 +3,7 @@
 graph TB;
   linkStyle default interpolate monotoneX
     subgraph Inndata
-      geonorge[Geonorge]
+      kartverket[Kartverket]
       wikidata[Wikidata]
       ssb[SSB]
     end
@@ -15,8 +15,8 @@ graph TB;
       kommune-kart[kommune-kart]
       kommune[kommune]
     end
-    geonorge-->|GeoJSON|kommune-kart-lastejobb;
-    geonorge-->|GeoJSON|kommune-lastejobb;
+    kartverket-->|GeoJSON|kommune-kart-lastejobb;
+    kartverket-->|GeoJSON|kommune-lastejobb;
     ssb-->|JSON|kommune-lastejobb;
     wikidata-->|SPARQL|kommune-lastejobb;
     kommune-kart-lastejobb-->|GeoJSON|kommune-kart;
@@ -28,12 +28,12 @@ graph TB;
     click xkommune "https://github.com/Artsdatabanken/kommune" "_"
     click kommune-kart "https://github.com/Artsdatabanken/kommune-kart" "_"
     click kommune-kart-lastejobb "https://github.com/Artsdatabanken/kommune-kart-lastejobb" "_"
-    click geonorge "https://geonorge.no" "_"
+    click kartverket "https://kartverket.no" "_"
     click wikidata "https://www.wikidata.org/wiki/Q15284" "_"
     click ssb "https://www.ssb.no" "_"
 
 class kommune-lastejobb focus
-class geonorge,wikidata,ssb data
+class kartverket,wikidata,ssb data
 class kommune,kommune-kart, utdata
 class xkommune-lastejobb,kommune-kart-lastejobb lastejobb
 class naturvern-lastejobb,naturvern-kart-lastejobb,nin-lastejobb-egenskaper next
