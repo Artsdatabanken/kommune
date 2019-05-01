@@ -21,7 +21,7 @@ Datasettet som er resultatet av lastejobben havner i repo [kommune](https://gith
 
 ### Leses av
 
-- [nin-lastejobb](https://github.com/Artsdatabanken/nin-lastejobb)
+- [nin-data-lastejobb](https://github.com/Artsdatabanken/nin-data-lastejobb)
 
 ### Bruk i sluttprodukter
 
