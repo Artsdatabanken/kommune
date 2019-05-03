@@ -1,6 +1,6 @@
-const { io, log } = require("lastejobb");
+const { io } = require("lastejobb");
 
-const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
+const lesSparqlOutput = fil => io.lesDatafil("sparql_" + fil).results.bindings;
 
 function konverter(nivå) {
   const r = lesElementer(nivå, "item");
@@ -12,10 +12,10 @@ function konverter(nivå) {
   const dok = {
     items: arr,
     meta: {
-      url: `https://github.com/Artsdatabanken/kommune-data/blob/master/${nivå}.json`
+      url: `https://github.com/Artsdatabanken/kommune/blob/master/${nivå}.json`
     }
   };
-  io.skrivBuildfil(nivå, dok);
+  io.skrivDatafil(nivå, dok);
 }
 
 function mapTilArray(r) {
@@ -83,7 +83,7 @@ function flettNaboer(r, nivå) {
     const fra = r[idFra];
     const til = r[idTil];
     if (!til) return; // ligger ikke i Norge
-    fra.naboer = [...(fra.naboer || []), til.code].sort();
+    fra.nabo = [...(fra.nabo || []), til.code].sort();
   });
 }
 
