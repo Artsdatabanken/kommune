@@ -37,6 +37,7 @@ function bygg(nivå, autorkodeTilKode) {
     moveKey(e, "banners", "bilde.banner");
     moveKey(e, "images", "bilde.foto");
     moveKey(e, "coa", "bilde.coa");
+    moveKey(e, "flag", "bilde.flagg");
     r.push(e);
   });
 
