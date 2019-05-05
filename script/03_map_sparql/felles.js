@@ -71,7 +71,7 @@ function flettKoder(r, nivå) {
     if (fra && fra > new Date()) return;
     if (til && til < new Date()) return;
 
-    item.code = value(e.knr);
+    item.code = value(e.code);
   });
 }
 

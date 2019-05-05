@@ -1,12 +1,7 @@
-PREFIX pqv: <http://www.wikidata.org/prop/qualifier/value/>
-PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
-PREFIX ps: <http://www.wikidata.org/prop/statement/>
-SELECT *
-WHERE
-{
+SELECT * WHERE {
   ?kommune wdt:P31 wd:Q755707.
-  ?kommune wdt:P2504 ?knr.
-  ?kommune p:P2504 ?code.
-  OPTIONAL { ?code  pq:P580 ?start_time. }
-  OPTIONAL { ?code  pq:P582 ?end_time . }
+  ?kommune p:P2504 ?knr.
+  ?knr ps:P2504 ?code.
+ OPTIONAL{ ?knr pq:P580 ?start_time.}
+ OPTIONAL{ ?knr pq:P582 ?end_time.}
 }
