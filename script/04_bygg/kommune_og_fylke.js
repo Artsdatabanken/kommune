@@ -33,11 +33,11 @@ function bygg(nivå, autorkodeTilKode) {
     moveKey(e, "article", "lenke.wikipedia");
     moveKey(e, "item", "lenke.wikidata");
     moveKey(e, "url", "lenke.offisiell");
-    moveKey(e, "image", "bilde.image");
-    moveKey(e, "banners", "bilde.banner");
-    moveKey(e, "images", "bilde.foto");
-    moveKey(e, "coa", "bilde.coa");
-    moveKey(e, "flag", "bilde.flagg");
+    moveKey(e, "image", "mediakilde.image");
+    moveKey(e, "banners", "mediakilde.banner");
+    moveKey(e, "images", "mediakilde.foto");
+    moveKey(e, "coa", "mediakilde.coa");
+    moveKey(e, "flag", "mediakilde.flagg");
     r.push(e);
   });
 
