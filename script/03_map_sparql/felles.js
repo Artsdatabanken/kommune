@@ -92,10 +92,10 @@ function flettMedBilder(r, nivå) {
   bilde.forEach(e => {
     const id = e.item.value;
     const fra = r[id];
-    fra.images = fra.images || [];
+    fra.foto = fra.foto || [];
     fra.banners = fra.banners || [];
     const image = value(e.image);
-    if (image) fra.images.push(image);
+    if (image) fra.foto.push(image);
     const banner = value(e.banner);
     if (banner) fra.banners.push(banner);
   });
