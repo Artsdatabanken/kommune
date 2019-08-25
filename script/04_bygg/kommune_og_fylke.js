@@ -2,8 +2,8 @@ const { io, log, json } = require("lastejobb");
 const { moveKey } = json;
 
 const kommuneNummerTilKode = nr =>
-  "AO-FY-" + nr.substring(0, 2) + "-" + nr.substring(2, 4);
-const fylkeIsoTilKode = nr => "AO-FY-" + nr.replace("NO-", "");
+  "AO-TO-FL-" + nr.substring(0, 2) + "-" + nr.substring(2, 4);
+const fylkeIsoTilKode = nr => "AO-TO-FL-" + nr.replace("NO-", "");
 
 bygg("fylke", fylkeIsoTilKode);
 bygg("kommune", kommuneNummerTilKode);
