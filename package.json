@@ -5,10 +5,11 @@
   "homepage": "https://github.com/Artsdatabanken/kommune-lastejobb",
   "main": "test.js",
   "scripts": {
-    "build": "node index.js",
-    "publish": "echo dummy publish",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download": "node index download",
+    "transform": "node --max_old_space_size=8192 index transform",
+    "build": "npm run download && npm run transform",
+    "test": "node --max_old_space_size=6144 node_modules/.bin/jest",
+    "deploy": "./scripts/deploy.sh"
   },
   "keywords": [],
   "author": "Bjorn Reppen <bjreppen@gmail.com> (https://github.com/bjornreppen)",

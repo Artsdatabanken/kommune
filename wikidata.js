@@ -1,6 +1,4 @@
-const fetch = require("node-fetch");
 const fs = require("fs");
-const path = require("path");
 const { http } = require("lastejobb");
 
 // Query-verktøy på https://query.wikidata.org/

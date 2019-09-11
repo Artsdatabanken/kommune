@@ -2,7 +2,7 @@ const wikidata = require("../../../wikidata");
 const { io, log } = require("lastejobb");
 const path = require("path");
 
-const queries = io.findFiles("./script/01_download/wikidata", ".sparql");
+const queries = io.findFiles("./stages/download/wikidata", ".sparql");
 function next() {
   const query = queries.pop();
   if (!query) return;
