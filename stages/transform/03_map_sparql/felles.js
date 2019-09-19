@@ -4,6 +4,7 @@ const lesSparqlOutput = fil => io.lesDatafil("sparql_" + fil).results.bindings;
 
 function konverter(nivå) {
   const r = lesElementer(nivå, "item");
+  settNivå(r, nivå);
   flettKoder(r, nivå);
   flettNaboer(r, nivå);
   flettMedBilder(r, nivå);
@@ -99,6 +100,10 @@ function flettMedBilder(r, nivå) {
     const banner = value(e.banner);
     if (banner) fra.banners.push(banner);
   });
+}
+
+function settNivå(r, nivå) {
+  Object.values(r).forEach(e => (e.nivå = nivå));
 }
 
 module.exports = { konverter };
