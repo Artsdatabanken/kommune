@@ -73,4 +73,8 @@ Kjører hele lastejobben, først `download`, så `transform`.
 
 ### Deploy
 
+```bash
+npm run deploy
+```
+
 Tar filene fra `build`-katalogen som er produsert i `build` eller `transform` og publiserer disse offentlig slik at andre lastejobber eller konsumenter kan nå dem uten å kjøre lastejobben.
