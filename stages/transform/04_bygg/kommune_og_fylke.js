@@ -1,5 +1,7 @@
-const { io, log, json } = require("lastejobb");
+const { io, log, json, url } = require("lastejobb");
 const { moveKey } = json;
+
+const alt = {};
 
 const kommuneNummerTilKode = nr =>
   "AO-TO-FL-" + nr.substring(0, 2) + "-" + nr.substring(2, 4);
@@ -12,7 +14,7 @@ function bygg(nivå, autorkodeTilKode) {
   let kommune = io.lesDatafil(nivå + ".json").items;
   let basis = io.lesDatafil(nivå + "_meta.json").items;
   const other = json.arrayToObject(kommune, { uniqueKey: "code" });
-  const r = [];
+  const tre = {};
   basis.forEach(b => {
     let ekstra = other[nivå == "fylke" ? "NO-" + b.autorkode : b.autorkode];
     if (!ekstra) {
@@ -20,7 +22,7 @@ function bygg(nivå, autorkodeTilKode) {
       ekstra = { nabo: [] };
     }
     const e = Object.assign(b, ekstra);
-    e.kode = autorkodeTilKode(e.autorkode);
+    const kode = autorkodeTilKode(e.autorkode);
     moveKey(e, "areal", "geografi.areal");
     moveKey(e, "bbox", "geografi.bbox");
     moveKey(e, "code", "kodeautor");
@@ -37,8 +39,14 @@ function bygg(nivå, autorkodeTilKode) {
     moveKey(e, "banners", "mediakilde.banner");
     moveKey(e, "coa", "mediakilde.logo");
     moveKey(e, "flag", "mediakilde.flagg");
-    r.push(e);
+    tre[kode] = e;
+    alt[kode] = e;
   });
 
-  io.skrivBuildfil(nivå + ".json", r);
+  alt["AO-TO-FL"] = {
+    url: "/Administrativ_grense/Territorialområde/Fastlands-Norge"
+  };
+  new url(alt).assignUrls();
+
+  io.skrivBuildfil(nivå + ".json", tre);
 }
