@@ -6,7 +6,7 @@ const { http } = require("lastejobb");
 const endpointUrl = "https://query.wikidata.org/sparql";
 
 async function query(sparqlQuery, destFile) {
-  const fullUrl = endpointUrl + "?query=" + encodeURIComponent(sparqlQuery);
+  const fullUrl = endpointUrl + "?query=" + sparqlQuery;
   return await http.downloadJson(fullUrl, destFile);
 }
 
