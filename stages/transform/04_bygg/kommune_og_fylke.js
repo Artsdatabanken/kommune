@@ -24,8 +24,8 @@ function bygg(nivå, autorkodeTilKode) {
     moveKey(e, "areal", "geografi.areal");
     moveKey(e, "bbox", "geografi.bbox");
     moveKey(e, "code", "kodeautor");
-    if (e.itemLabel && e.itemLabel !== e.navn.nob)
-      log.warn(`Avvik i navn for ${e.kode}: ${e.itemLabel}<->${e.navn.nob}`);
+    if (e.itemLabel && e.itemLabel !== e.tittel.nob)
+      log.warn(`Avvik i navn for ${e.kode}: ${e.itemLabel}<->${e.tittel.nob}`);
     delete e.itemLabel;
     e.nabo = e.nabo.map(nabo => autorkodeTilKode(nabo));
     moveKey(e, "nabo", "geografi.nabo");
