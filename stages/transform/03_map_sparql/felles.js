@@ -1,6 +1,6 @@
 const { io } = require("lastejobb");
 
-const lesSparqlOutput = fil => io.lesDatafil("sparql_" + fil).results.bindings;
+const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
 
 function konverter(nivå) {
   const r = lesElementer(nivå, "item");
