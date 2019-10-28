@@ -14,4 +14,4 @@ cache:
 
 deploy:
   provider: script
-  script: npm run publish
+#  script: npm run deploy
