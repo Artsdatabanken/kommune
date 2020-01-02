@@ -1,4 +1,4 @@
-const { io } = require("lastejobb");
+const { io, log } = require("lastejobb");
 
 const lesSparqlOutput = fil => io.lesDatafil(fil).results.bindings;
 
@@ -16,14 +16,16 @@ function konverter(nivå) {
       url: `https://github.com/Artsdatabanken/kommune/blob/master/${nivå}.json`
     }
   };
-  io.skrivDatafil(nivå, dok);
+  io.skrivDatafil(nivå + "_mapped", dok);
 }
+
+const today = new Date();
 
 function mapTilArray(r) {
   const values = Object.values(r);
   return values.reduce((acc, e) => {
-    if (e.dissolved < new Date()) return acc;
-    if (e.inception > new Date()) return acc;
+    if (e.dissolved < today) return acc;
+    if (e.inception > today) return acc;
     if (!e.code) return acc;
     acc.push(e);
     return acc;
@@ -67,6 +69,7 @@ function flettKoder(r, nivå) {
   nummer.forEach(e => {
     const id = e.kommune.value;
     const item = r[id];
+    if (!item) return log.warn("Finner ikke item " + id);
     const fra = value(e.start_time);
     const til = value(e.end_time);
     if (fra && fra > new Date()) return;
@@ -78,12 +81,14 @@ function flettKoder(r, nivå) {
 
 function flettNaboer(r, nivå) {
   const nabo = lesSparqlOutput(nivå + "nabo");
+  debugger;
   nabo.forEach(e => {
     const idFra = e.item.value;
     const idTil = e.shares_border_with.value;
     const fra = r[idFra];
     const til = r[idTil];
-    if (!til) return; // ligger ikke i Norge
+    if (!fra || !til)
+      return log.warn("Finner ikke naboer " + idFra + " og " + idTil);
     fra.nabo = [...(fra.nabo || []), til.code].sort();
   });
 }
@@ -93,6 +98,8 @@ function flettMedBilder(r, nivå) {
   bilde.forEach(e => {
     const id = e.item.value;
     const fra = r[id];
+    if (!fra) debugger;
+    if (!fra) return log.warn("Har bilde for ukjent " + id);
     fra.foto = fra.foto || [];
     fra.banners = fra.banners || [];
     const image = value(e.image);

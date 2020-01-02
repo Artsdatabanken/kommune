@@ -11,17 +11,20 @@ bygg("fylke", fylkeIsoTilKode);
 bygg("kommune", kommuneNummerTilKode);
 
 function bygg(nivå, autorkodeTilKode) {
-  let kommune = io.lesDatafil(nivå + ".json").items;
+  let kommune = io.lesDatafil(nivå + "_mapped.json").items;
   let basis = io.lesDatafil(nivå + "_meta.json").items;
   const other = json.arrayToObject(kommune, { uniqueKey: "code" });
   const tre = {};
+  debugger;
   basis.forEach(b => {
     let ekstra = other[nivå == "fylke" ? "NO-" + b.autorkode : b.autorkode];
     if (!ekstra) {
       log.warn(`Mangler wikidata data for ${b.autorkode}`);
-      ekstra = { nabo: [] };
+      ekstra = {};
     }
+    ekstra.nabo = ekstra.nabo || [];
     const e = Object.assign(b, ekstra);
+    if (!e.autorkode) debugger;
     const kode = autorkodeTilKode(e.autorkode);
     moveKey(e, "areal", "geografi.areal");
     moveKey(e, "bbox", "geografi.bbox");
@@ -29,7 +32,8 @@ function bygg(nivå, autorkodeTilKode) {
     if (e.itemLabel && e.itemLabel !== e.tittel.nob)
       log.warn(`Avvik i navn for ${e.kode}: ${e.itemLabel}<->${e.tittel.nob}`);
     delete e.itemLabel;
-    e.nabo = e.nabo.map(nabo => autorkodeTilKode(nabo));
+    if (!e.nabo) debugger;
+    e.nabo = e.nabo.filter(Boolean).map(nabo => autorkodeTilKode(nabo));
     moveKey(e, "nabo", "geografi.nabo");
     moveKey(e, "url", "lenke.offisiell");
     moveKey(e, "article", "lenke.wikipedia");
