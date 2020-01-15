@@ -15,7 +15,6 @@ function bygg(nivå, autorkodeTilKode) {
   let basis = io.lesDatafil(nivå + "_meta.json").items;
   const other = json.arrayToObject(kommune, { uniqueKey: "code" });
   const tre = {};
-  debugger;
   basis.forEach(b => {
     let ekstra = other[nivå == "fylke" ? "NO-" + b.autorkode : b.autorkode];
     if (!ekstra) {
