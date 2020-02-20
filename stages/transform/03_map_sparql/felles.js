@@ -48,6 +48,7 @@ function map(e) {
   Object.entries(e).forEach(([key, v]) => {
     r[key] = value(v);
   });
+  if (r.osm) r.osm = "https://www.openstreetmap.org/relation/" + r.osm;
   return r;
 }
 
