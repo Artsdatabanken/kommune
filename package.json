@@ -5,16 +5,16 @@
   "homepage": "https://github.com/Artsdatabanken/kommune-lastejobb",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "download": "node node_modules/lastejobb/index stages/download",
-    "transform": "node node_modules/lastejobb/index stages/transform",
+    "download": "node node_modules/lastejobb/lastejobb stages/download",
+    "transform": "node node_modules/lastejobb/lastejobb stages/transform",
     "build": "npm run download && npm run transform",
-    "deploy": "node node_modules/lastejobb/index stages/deploy"
+    "deploy": "node node_modules/lastejobb/lastejobb stages/deploy"
   },
   "keywords": [],
   "author": "Bjorn Reppen <bjreppen@gmail.com> (https://github.com/bjornreppen)",
   "license": "ISC",
   "repository": "https://github.com/Artsdatabanken/kommune-lastejobb",
   "dependencies": {
-    "lastejobb": "^3.0.2"
+    "lastejobb": "^3.5.2"
   }
 }
