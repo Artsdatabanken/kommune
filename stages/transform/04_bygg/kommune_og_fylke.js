@@ -11,8 +11,8 @@ bygg("fylke", fylkeIsoTilKode);
 bygg("kommune", kommuneNummerTilKode);
 
 function bygg(nivå, autorkodeTilKode) {
-  let kommune = io.lesDatafil(nivå + "_mapped.json").items;
-  let basis = io.lesDatafil(nivå + "_meta.json").items;
+  let kommune = io.lesTempJson(nivå + "_mapped.json");
+  let basis = io.lesTempJson(nivå + "_meta.json").items;
   const other = json.arrayToObject(kommune, { uniqueKey: "code" });
   const tre = {};
   basis.forEach(b => {

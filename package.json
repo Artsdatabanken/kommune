@@ -15,6 +15,6 @@
   "license": "ISC",
   "repository": "https://github.com/Artsdatabanken/kommune-lastejobb",
   "dependencies": {
-    "lastejobb": "^3.5.2"
+    "lastejobb": "^3.5.3"
   }
 }
