@@ -1,4 +1,4 @@
-const { io, http, log } = require("lastejobb");
+const { io, http, log } = require("@artsdatabanken/lastejobb");
 
 // Leser kommuners navn fra SSB
 // Ikke i bruk

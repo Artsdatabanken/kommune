@@ -1,4 +1,4 @@
-const { io, http, log } = require("lastejobb");
+const { io, http, log } = require("@artsdatabanken/lastejobb");
 
 // Ikke i bruk
 http.downloadJson(
