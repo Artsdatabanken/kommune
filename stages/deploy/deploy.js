@@ -55,7 +55,9 @@ try{
     // still dont care..
     console.error("error during git add section: "+e);
 }
+
 var stamp = Date.now();
+
 try{    
     let msg  = git('commit -m "deploy '+stamp+'"');
     console.log(msg);
