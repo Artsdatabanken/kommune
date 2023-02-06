@@ -52,6 +52,7 @@ try{
     git("add build/dummy.txt");
 }catch(e){
     // still dont care..
+    console.error("error during git add section: "+e);
 }
 var stamp = Date.now();
 try{
