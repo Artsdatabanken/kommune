@@ -1,0 +1,312 @@
+{
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "items": {
+        "items": {
+          "properties": {
+            "autorkode": {
+              "type": "string"
+            },
+            "geografi": {
+              "properties": {
+                "areal": {
+                  "type": "number"
+                },
+                "bbox": {
+                  "items": {
+                    "type": "number"
+                  },
+                  "type": "array"
+                },
+                "nabo": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            },
+            "inception": {
+              "type": "string"
+            },
+            "kode": {
+              "type": "string"
+            },
+            "lenke": {
+              "properties": {
+                "offisiell": {
+                  "type": "string"
+                },
+                "wikidata": {
+                  "type": "string"
+                },
+                "wikipedia": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "mediakilde": {
+              "properties": {
+                "banner": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "flagg": {
+                  "type": "string"
+                },
+                "foto": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "logo": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "nivå": {
+              "type": "string"
+            },
+            "osm": {
+              "type": "string"
+            },
+            "tittel": {
+              "properties": {
+                "fkv": {
+                  "type": "string"
+                },
+                "nob": {
+                  "type": "string"
+                },
+                "sma": {
+                  "type": "string"
+                },
+                "sme": {
+                  "type": "string"
+                },
+                "smj": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "autorkode",
+            "geografi",
+            "kode",
+            "tittel",
+            "url",
+            "lenke",
+            "mediakilde",
+            "nivå",
+            "osm",
+            "inception"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "elementer": {
+                        "type": "number"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "produsertUtc": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "items": {},
+                        "type": "array"
+                      },
+                      "tittel": {
+                        "type": "string"
+                      },
+                      "tool": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      },
+                      "utgiver": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "tittel",
+                      "produsertUtc",
+                      "utgiver",
+                      "url",
+                      "tool",
+                      "elementer",
+                      "source"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "tittel",
+                "produsertUtc",
+                "utgiver",
+                "url",
+                "elementer",
+                "source"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "tool": {
+            "properties": {
+              "commit": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "null"
+              }
+            },
+            "type": "object"
+          },
+          "url": {
+            "type": "null"
+          },
+          "utgiver": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      }
+    },
+    "type": "object"
+  },
+  "meta": {
+    "tittel": "Fylke.schema",
+    "produsertUtc": "2023-02-06T14:36:22.079Z",
+    "utgiver": "Artsdatabanken",
+    "url": null,
+    "tool": {
+      "name": "@artsdatabanken/lastejobb",
+      "commit": "https://github.com/Artsdatabanken/kommune.git/master/3ec145b8821cfbbf4e4c6efad27b23d7585d57ce"
+    },
+    "elementer": 3,
+    "source": [
+      {
+        "name": "fylke_mapped.json",
+        "tittel": "Fylke mapped",
+        "produsertUtc": "2023-02-06T14:36:21.458Z",
+        "utgiver": "Artsdatabanken",
+        "url": "https://github.com/Artsdatabanken/kommune/blob/master/fylke.json",
+        "tool": {
+          "name": "@artsdatabanken/lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune.git/master/3ec145b8821cfbbf4e4c6efad27b23d7585d57ce"
+        },
+        "elementer": 10,
+        "source": [
+          {
+            "name": "fylke",
+            "tittel": "Fylke",
+            "produsertUtc": "2023-02-06T14:29:05.382Z",
+            "utgiver": "Artsdatabanken",
+            "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n  OPTIONAL { ?item wdt:P300 ?code. }\r\n  OPTIONAL { ?item wdt:P571 ?inception. }\r\n  OPTIONAL { ?item wdt:P576 ?dissolved. }\r\n  OPTIONAL { ?item wdt:P2044 ?elevation. }\r\n  OPTIONAL { ?item wdt:P856 ?url. }\r\n  OPTIONAL { ?item wdt:P94 ?coa. }\r\n  OPTIONAL { ?item wdt:P41 ?flag. }\r\n  OPTIONAL { ?item wdt:P402 ?osm. }\r\n  OPTIONAL {\r\n    ?article schema:about ?item;\r\n      schema:isPartOf <https://no.wikipedia.org/>.\r\n  }\r\n SERVICE wikibase:label {\r\n    bd:serviceParam wikibase:language \"nb\".\r\n    ?item rdfs:label ?itemLabel.\r\n  }\r\n}\r\n",
+            "tool": "stages/download",
+            "elementer": 2,
+            "source": []
+          },
+          {
+            "name": "fylkenabo",
+            "tittel": "Fylkenabo",
+            "produsertUtc": "2023-02-06T14:29:03.719Z",
+            "utgiver": "Artsdatabanken",
+            "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n    wdt:P47 ?shares_border_with.\r\n}\r\n",
+            "tool": "stages/download",
+            "elementer": 2,
+            "source": []
+          },
+          {
+            "name": "fylkebilde",
+            "tittel": "Fylkebilde",
+            "produsertUtc": "2023-02-06T14:29:03.656Z",
+            "utgiver": "Artsdatabanken",
+            "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n    ?item wdt:P31 wd:Q192299;\r\n    OPTIONAL {\r\n      ?item wdt:P18 ?image.\r\n    }\r\n    OPTIONAL {\r\n      ?item wdt:P948 ?banner.\r\n    }\r\n  }\r\nORDER BY ?item\r\n",
+            "tool": "stages/download",
+            "elementer": 2,
+            "source": []
+          }
+        ]
+      },
+      {
+        "name": "fylke_meta.json",
+        "tittel": "Fylke meta",
+        "produsertUtc": "2023-02-06T14:29:02.164Z",
+        "utgiver": "Artsdatabanken",
+        "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.json",
+        "elementer": 2,
+        "source": []
+      }
+    ]
+  }
+}

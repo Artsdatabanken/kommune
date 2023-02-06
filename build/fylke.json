@@ -1,0 +1,470 @@
+{
+  "items": [
+    {
+      "autorkode": "03",
+      "geografi": {
+        "areal": 481034633,
+        "bbox": [
+          10.489165172744222,
+          59.809311318681786,
+          10.951389441821258,
+          60.13510637586622
+        ],
+        "nabo": []
+      },
+      "kode": "AO-TO-FL-03",
+      "tittel": {
+        "nob": "Oslo"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Oslo"
+    },
+    {
+      "autorkode": "11",
+      "geografi": {
+        "areal": 16630506754,
+        "bbox": [
+          4.45427239494705,
+          58.02785083270513,
+          7.2146666501022,
+          59.84457438275928
+        ],
+        "nabo": [
+          "AO-TO-FL-38",
+          "AO-TO-FL-42",
+          "AO-TO-FL-46"
+        ]
+      },
+      "kode": "AO-TO-FL-11",
+      "lenke": {
+        "offisiell": "http://www.rogfk.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q50624",
+        "wikipedia": "https://no.wikipedia.org/wiki/Rogaland"
+      },
+      "mediakilde": {
+        "banner": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Preikestolen%20banner.jpg"
+        ],
+        "flagg": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rogaland.svg",
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Obrestad%20fyr%20utsiktspunkt%20%28light%20house%29.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Rogaland%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/405836",
+      "tittel": {
+        "nob": "Rogaland"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Rogaland"
+    },
+    {
+      "autorkode": "15",
+      "geografi": {
+        "areal": 25548771617,
+        "bbox": [
+          4.816601148402287,
+          61.923343797775885,
+          9.364831470657705,
+          63.768167725281884
+        ],
+        "nabo": [
+          "AO-TO-FL-34",
+          "AO-TO-FL-46",
+          "AO-TO-FL-50"
+        ]
+      },
+      "kode": "AO-TO-FL-15",
+      "lenke": {
+        "offisiell": "http://www.mrfylke.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q50627",
+        "wikipedia": "https://no.wikipedia.org/wiki/M%C3%B8re_og_Romsdal"
+      },
+      "mediakilde": {
+        "banner": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Romsdalsfjorden%20banner.jpg"
+        ],
+        "flagg": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20M%C3%B8re%20og%20Romsdal.svg",
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Blick%20von%20der%20Dalsnibba%20in%20den%20Geirangerfjord.JPG"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B8re%20og%20Romsdal%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/406868",
+      "tittel": {
+        "nob": "Møre og Romsdal"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Møre_og_Romsdal"
+    },
+    {
+      "autorkode": "18",
+      "geografi": {
+        "areal": 80507238554,
+        "bbox": [
+          10.578060311104386,
+          64.93949726724934,
+          18.15135489528279,
+          69.59670059381384
+        ],
+        "nabo": [
+          "AO-TO-FL-50",
+          "AO-TO-FL-54"
+        ]
+      },
+      "kode": "AO-TO-FL-18",
+      "lenke": {
+        "offisiell": "http://www.nfk.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q50630",
+        "wikipedia": "https://no.wikipedia.org/wiki/Nordland"
+      },
+      "mediakilde": {
+        "banner": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Norrland%20Wikivoyage%20banner.jpg"
+        ],
+        "flagg": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nordland.svg",
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Berge%20Sieben%20Schwestern%20Norwegen.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordland%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/408105",
+      "tittel": {
+        "nob": "Nordland",
+        "smj": "Nordlánnda"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Nordland"
+    },
+    {
+      "autorkode": "30",
+      "geografi": {
+        "areal": 26803917608,
+        "bbox": [
+          7.438842391540353,
+          58.760960386004776,
+          11.94600448077151,
+          61.091720498024685
+        ],
+        "nabo": [
+          "AO-TO-FL-34",
+          "AO-TO-FL-38",
+          "AO-TO-FL-46"
+        ]
+      },
+      "inception": "2020-01-01T00:00:00.000Z",
+      "kode": "AO-TO-FL-30",
+      "lenke": {
+        "offisiell": "https://www.viken.no",
+        "wikidata": "http://www.wikidata.org/entity/Q56407178",
+        "wikipedia": "https://no.wikipedia.org/wiki/Viken_(fylke)"
+      },
+      "mediakilde": {
+        "banner": [],
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/2010-10-25%20Oslofjord.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Viken%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/10155539",
+      "tittel": {
+        "nob": "Viken"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Viken"
+    },
+    {
+      "autorkode": "34",
+      "geografi": {
+        "areal": 52111829980,
+        "bbox": [
+          7.3425303969419,
+          59.84078459884115,
+          12.870848559833833,
+          62.69692794191502
+        ],
+        "nabo": [
+          "AO-TO-FL-15",
+          "AO-TO-FL-30",
+          "AO-TO-FL-46",
+          "AO-TO-FL-50"
+        ]
+      },
+      "inception": "2020-01-01T00:00:00.000Z",
+      "kode": "AO-TO-FL-34",
+      "lenke": {
+        "offisiell": "https://www.innlandetfylke.no",
+        "wikidata": "http://www.wikidata.org/entity/Q56404886",
+        "wikipedia": "https://no.wikipedia.org/wiki/Innlandet"
+      },
+      "mediakilde": {
+        "banner": [],
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8r-Fron.JPG"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Innlandet%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/10155527",
+      "tittel": {
+        "nob": "Innlandet"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Innlandet"
+    },
+    {
+      "autorkode": "38",
+      "geografi": {
+        "areal": 20243242190,
+        "bbox": [
+          7.096287398953051,
+          58.60331084007686,
+          10.675019827794426,
+          60.18827181490097
+        ],
+        "nabo": [
+          "AO-TO-FL-11",
+          "AO-TO-FL-30",
+          "AO-TO-FL-42",
+          "AO-TO-FL-46"
+        ]
+      },
+      "inception": "2020-01-01T00:00:00.000Z",
+      "kode": "AO-TO-FL-38",
+      "lenke": {
+        "offisiell": "https://vtfk.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q56405721",
+        "wikipedia": "https://no.wikipedia.org/wiki/Vestfold_og_Telemark"
+      },
+      "mediakilde": {
+        "banner": [],
+        "flagg": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vestfold%20and%20Telemark.svg",
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Stavechurch-heddal.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vestfold%20og%20Telemark%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/10487008",
+      "tittel": {
+        "nob": "Vestfold og Telemark"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Vestfold_og_Telemark"
+    },
+    {
+      "autorkode": "42",
+      "geografi": {
+        "areal": 23057310500,
+        "bbox": [
+          6.149704902044824,
+          57.75900528210003,
+          9.66887655279871,
+          59.67268697543949
+        ],
+        "nabo": [
+          "AO-TO-FL-11",
+          "AO-TO-FL-38"
+        ]
+      },
+      "inception": "2020-01-01T00:00:00.000Z",
+      "kode": "AO-TO-FL-42",
+      "lenke": {
+        "offisiell": "https://agderfk.no",
+        "wikidata": "http://www.wikidata.org/entity/Q2729021",
+        "wikipedia": "https://no.wikipedia.org/wiki/Agder"
+      },
+      "mediakilde": {
+        "banner": [],
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Arendal%20Utsikt%2002.JPG"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Agder%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/10155517",
+      "tittel": {
+        "nob": "Agder"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Agder"
+    },
+    {
+      "autorkode": "46",
+      "geografi": {
+        "areal": 49865236842,
+        "bbox": [
+          4.08752436200235,
+          59.475420802275394,
+          8.322052971369212,
+          62.38239573270565
+        ],
+        "nabo": [
+          "AO-TO-FL-11",
+          "AO-TO-FL-15",
+          "AO-TO-FL-30",
+          "AO-TO-FL-34",
+          "AO-TO-FL-38"
+        ]
+      },
+      "inception": "2020-01-01T00:00:00.000Z",
+      "kode": "AO-TO-FL-46",
+      "lenke": {
+        "offisiell": "https://www.vlfk.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q56407177",
+        "wikipedia": "https://no.wikipedia.org/wiki/Vestland"
+      },
+      "mediakilde": {
+        "banner": [],
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Sognefjord%20-%202013.08%20-%20panoramio.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Vestland%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/10155543",
+      "tittel": {
+        "nob": "Vestland"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Vestland"
+    },
+    {
+      "autorkode": "50",
+      "geografi": {
+        "areal": 59687071281,
+        "bbox": [
+          7.64809389061459,
+          62.25572672948567,
+          14.325985837435818,
+          65.47017500091161
+        ],
+        "nabo": [
+          "AO-TO-FL-15",
+          "AO-TO-FL-18",
+          "AO-TO-FL-34"
+        ]
+      },
+      "kode": "AO-TO-FL-50",
+      "lenke": {
+        "offisiell": "https://www.trondelagfylke.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q127676",
+        "wikipedia": "https://no.wikipedia.org/wiki/Tr%C3%B8ndelag"
+      },
+      "mediakilde": {
+        "banner": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Langnes%20small%20craft%20harbor.jpg"
+        ],
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/Seierstad%20J%C3%B8a.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Tr%C3%B8ndelag%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/406567",
+      "tittel": {
+        "nob": "Trøndelag",
+        "sma": "Trööndelage"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Trøndelag"
+    },
+    {
+      "autorkode": "54",
+      "geografi": {
+        "areal": 116133187607,
+        "bbox": [
+          15.59254161835943,
+          68.35601380336598,
+          31.761592631162348,
+          71.38487875577506
+        ],
+        "nabo": [
+          "AO-TO-FL-18"
+        ]
+      },
+      "inception": "2020-01-01T00:00:00.000Z",
+      "kode": "AO-TO-FL-54",
+      "lenke": {
+        "offisiell": "https://www.tffk.no/",
+        "wikidata": "http://www.wikidata.org/entity/Q52600648",
+        "wikipedia": "https://no.wikipedia.org/wiki/Troms_og_Finnmark"
+      },
+      "mediakilde": {
+        "banner": [],
+        "foto": [
+          "http://commons.wikimedia.org/wiki/Special:FilePath/North%20Cape%202005-07-18.jpg"
+        ],
+        "logo": "http://commons.wikimedia.org/wiki/Special:FilePath/Troms%20og%20Finnmark%20v%C3%A5pen.svg"
+      },
+      "nivå": "fylke",
+      "osm": "https://www.openstreetmap.org/relation/10155507",
+      "tittel": {
+        "fkv": "Tromssa ja Finmarkku",
+        "nob": "Troms og Finnmark",
+        "sme": "Romsa ja Finnmárku"
+      },
+      "url": "/Administrativ_grense/Territorialområde/Fastlands-Norge/Troms_og_Finnmark"
+    }
+  ],
+  "meta": {
+    "tittel": "Fylke",
+    "produsertUtc": "2023-02-06T14:36:22.072Z",
+    "utgiver": "Artsdatabanken",
+    "url": null,
+    "tool": {
+      "name": "@artsdatabanken/lastejobb",
+      "commit": "https://github.com/Artsdatabanken/kommune.git/master/3ec145b8821cfbbf4e4c6efad27b23d7585d57ce"
+    },
+    "elementer": 11,
+    "source": [
+      {
+        "name": "fylke_mapped.json",
+        "tittel": "Fylke mapped",
+        "produsertUtc": "2023-02-06T14:36:21.458Z",
+        "utgiver": "Artsdatabanken",
+        "url": "https://github.com/Artsdatabanken/kommune/blob/master/fylke.json",
+        "tool": {
+          "name": "@artsdatabanken/lastejobb",
+          "commit": "https://github.com/Artsdatabanken/kommune.git/master/3ec145b8821cfbbf4e4c6efad27b23d7585d57ce"
+        },
+        "elementer": 10,
+        "source": [
+          {
+            "name": "fylke",
+            "tittel": "Fylke",
+            "produsertUtc": "2023-02-06T14:29:05.382Z",
+            "utgiver": "Artsdatabanken",
+            "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n  OPTIONAL { ?item wdt:P300 ?code. }\r\n  OPTIONAL { ?item wdt:P571 ?inception. }\r\n  OPTIONAL { ?item wdt:P576 ?dissolved. }\r\n  OPTIONAL { ?item wdt:P2044 ?elevation. }\r\n  OPTIONAL { ?item wdt:P856 ?url. }\r\n  OPTIONAL { ?item wdt:P94 ?coa. }\r\n  OPTIONAL { ?item wdt:P41 ?flag. }\r\n  OPTIONAL { ?item wdt:P402 ?osm. }\r\n  OPTIONAL {\r\n    ?article schema:about ?item;\r\n      schema:isPartOf <https://no.wikipedia.org/>.\r\n  }\r\n SERVICE wikibase:label {\r\n    bd:serviceParam wikibase:language \"nb\".\r\n    ?item rdfs:label ?itemLabel.\r\n  }\r\n}\r\n",
+            "tool": "stages/download",
+            "elementer": 2,
+            "source": []
+          },
+          {
+            "name": "fylkenabo",
+            "tittel": "Fylkenabo",
+            "produsertUtc": "2023-02-06T14:29:03.719Z",
+            "utgiver": "Artsdatabanken",
+            "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n    wdt:P47 ?shares_border_with.\r\n}\r\n",
+            "tool": "stages/download",
+            "elementer": 2,
+            "source": []
+          },
+          {
+            "name": "fylkebilde",
+            "tittel": "Fylkebilde",
+            "produsertUtc": "2023-02-06T14:29:03.656Z",
+            "utgiver": "Artsdatabanken",
+            "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n    ?item wdt:P31 wd:Q192299;\r\n    OPTIONAL {\r\n      ?item wdt:P18 ?image.\r\n    }\r\n    OPTIONAL {\r\n      ?item wdt:P948 ?banner.\r\n    }\r\n  }\r\nORDER BY ?item\r\n",
+            "tool": "stages/download",
+            "elementer": 2,
+            "source": []
+          }
+        ]
+      },
+      {
+        "name": "fylke_meta.json",
+        "tittel": "Fylke meta",
+        "produsertUtc": "2023-02-06T14:29:02.164Z",
+        "utgiver": "Artsdatabanken",
+        "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.json",
+        "elementer": 2,
+        "source": []
+      }
+    ]
+  }
+}
