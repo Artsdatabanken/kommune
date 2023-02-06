@@ -1,4 +1,4 @@
-const { io, log, json, url } = require("lastejobb");
+const { io, log, json, url } = require("@artsdatabanken/lastejobb");
 const { moveKey } = json;
 
 const alt = {};
