@@ -32,6 +32,7 @@ try{
     }
 }catch(e){
         // i dont care....
+        console.log("Error: "+e);
 }
 
 // Innkluderer Artsdatabanken/kommune som repo under alias upstream hvis den ikke allerede er lagt til 
@@ -55,16 +56,20 @@ try{
     console.error("error during git add section: "+e);
 }
 var stamp = Date.now();
-try{
-    git('commit -m "deploy '+stamp+'"');
+try{    
+    let msg  = git('commit -m "deploy '+stamp+'"');
+    console.log(msg);
 }catch(e){
     //...jadajada..
+    console.log("Error: "+e);
 }
 
 try{
-    git("push --force -u upstream master");  //git push -u gh_nd_brreg main
+    let msg  = git("push --force -u upstream master");  //git push -u gh_nd_brreg main
+    console.log(msg);
 }catch(e){
     //..move on..
+    console.log("Error: "+e);
 }
 //git("add build/*");
 // Sjekke om kommunerepo allerede ligger inne med: '
