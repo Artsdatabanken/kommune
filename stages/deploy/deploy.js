@@ -49,6 +49,7 @@ try{
     git("add build/fylke.schema.json");
     git("add build/kommune.json");
     git("add build/kommune.schema.json");
+    git("add build/dummy.txt");
 }catch(e){
     // still dont care..
 }
