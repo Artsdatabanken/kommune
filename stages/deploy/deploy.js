@@ -75,7 +75,7 @@ function make_new_commit() {
     }
 }
 
-function getShaOfLastCommit(){
+function getShaOfLastCommit() { //-> string: msg
     try {
         let msg = git('git rev-parse HEAD');
         //console.log(msg);
@@ -86,7 +86,7 @@ function getShaOfLastCommit(){
     } 
 }
 
-function deploy_with_push() {
+function deploy_with_push() { // void
     try {
         //let msg = git("push --force -u upstream master");  //git push -u gh_nd_brreg main
         let lastsha = getShaOfLastCommit();
