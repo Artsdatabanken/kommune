@@ -75,9 +75,24 @@ function make_new_commit() {
     }
 }
 
+function getShaOfLastCommit(){
+    try {
+        let msg = git('git rev-parse HEAD');
+        //console.log(msg);
+        return msg;
+    } catch (e) {
+        //...jadajada..
+        console.log("Error: " + e);
+    } 
+}
+
 function deploy_with_push() {
     try {
-        let msg = git("push --force -u upstream master");  //git push -u gh_nd_brreg main
+        //let msg = git("push --force -u upstream master");  //git push -u gh_nd_brreg main
+        let lastsha = getShaOfLastCommit();
+        let cmd = "push upstream "+lastsha+":master";
+        let msg = git(cmd);
+        //git push <remotename> <commit SHA>:<remotebranchname>
         console.log(msg);
     } catch (e) {
         //..move on..
@@ -85,11 +100,10 @@ function deploy_with_push() {
     }
 }
 
-//git("add build/*");
-// Sjekke om kommunerepo allerede ligger inne med: '
-
-//  - git remote -v
-// git remote add {alias} {github-url}
-
-//DIV:
-// remote skal være https://github.com/Artsdatabanken/kommune.git
+//The steps
+check_if_upstream_exists();
+add_kommmunerepo_if_not_added();
+add_new_files_to_be_commited();
+make_new_commit();
+console.log(getShaOfLastCommit());
+//deploy_with_push();
