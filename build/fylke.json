@@ -3,12 +3,12 @@
     {
       "autorkode": "03",
       "geografi": {
-        "areal": 481034633,
+        "areal": 481034651,
         "bbox": [
-          10.489165172744222,
-          59.809311318681786,
-          10.951389441821258,
-          60.13510637586622
+          248657.28000000003,
+          6637442.11,
+          273925.9200000003,
+          6674528.68
         ],
         "nabo": []
       },
@@ -23,10 +23,10 @@
       "geografi": {
         "areal": 16630506754,
         "bbox": [
-          4.45427239494705,
-          58.02785083270513,
-          7.2146666501022,
-          59.84457438275928
+          -99551.20999999996,
+          6466105.140000001,
+          62133.76999999996,
+          6664216.860000001
         ],
         "nabo": [
           "AO-TO-FL-38",
@@ -60,12 +60,12 @@
     {
       "autorkode": "15",
       "geografi": {
-        "areal": 25548771617,
+        "areal": 25548792434,
         "bbox": [
-          4.816601148402287,
-          61.923343797775885,
-          9.364831470657705,
-          63.768167725281884
+          -25091.800000000047,
+          6894853.42,
+          212825.9300000001,
+          7092052.089999999
         ],
         "nabo": [
           "AO-TO-FL-34",
@@ -99,12 +99,12 @@
     {
       "autorkode": "18",
       "geografi": {
-        "areal": 80507238554,
+        "areal": 80505891741,
         "bbox": [
-          10.578060311104386,
-          64.93949726724934,
-          18.15135489528279,
-          69.59670059381384
+          295338.32999999996,
+          7203714.83,
+          630563.02,
+          7721399.97
         ],
         "nabo": [
           "AO-TO-FL-50",
@@ -138,12 +138,12 @@
     {
       "autorkode": "30",
       "geografi": {
-        "areal": 26803917608,
+        "areal": 26803915312,
         "bbox": [
-          7.438842391540353,
-          58.760960386004776,
-          11.94600448077151,
-          61.091720498024685
+          82868.22000000015,
+          6521820.68,
+          328157.64,
+          6791455.28
         ],
         "nabo": [
           "AO-TO-FL-34",
@@ -175,12 +175,12 @@
     {
       "autorkode": "34",
       "geografi": {
-        "areal": 52111829980,
+        "areal": 52111830347,
         "bbox": [
-          7.3425303969419,
-          59.84078459884115,
-          12.870848559833833,
-          62.69692794191502
+          100036.06,
+          6637904,
+          386150.05000000005,
+          6961057.210000001
         ],
         "nabo": [
           "AO-TO-FL-15",
@@ -213,12 +213,12 @@
     {
       "autorkode": "38",
       "geografi": {
-        "areal": 20243242190,
+        "areal": 20242843630,
         "bbox": [
-          7.096287398953051,
-          58.60331084007686,
-          10.675019827794426,
-          60.18827181490097
+          56640.04999999999,
+          6508189.92,
+          251957.29999999996,
+          6691903.060000001
         ],
         "nabo": [
           "AO-TO-FL-11",
@@ -252,12 +252,12 @@
     {
       "autorkode": "42",
       "geografi": {
-        "areal": 23057310500,
+        "areal": 23057710199,
         "bbox": [
-          6.149704902044824,
-          57.75900528210003,
-          9.66887655279871,
-          59.67268697543949
+          -21808.940000000002,
+          6426048.440000001,
+          190403.8500000001,
+          6640697.51
         ],
         "nabo": [
           "AO-TO-FL-11",
@@ -288,12 +288,12 @@
     {
       "autorkode": "46",
       "geografi": {
-        "areal": 49865236842,
+        "areal": 49865218309,
         "bbox": [
-          4.08752436200235,
-          59.475420802275394,
-          8.322052971369212,
-          62.38239573270565
+          -87974.67999999982,
+          6632997.16,
+          144444.42999999993,
+          6958283.480000001
         ],
         "nabo": [
           "AO-TO-FL-11",
@@ -327,12 +327,12 @@
     {
       "autorkode": "50",
       "geografi": {
-        "areal": 59687071281,
+        "areal": 59688415776,
         "bbox": [
-          7.64809389061459,
-          62.25572672948567,
-          14.325985837435818,
-          65.47017500091161
+          138033.65999999997,
+          6911983.93,
+          468357.58,
+          7268156.83
         ],
         "nabo": [
           "AO-TO-FL-15",
@@ -368,10 +368,10 @@
       "geografi": {
         "areal": 116133187607,
         "bbox": [
-          15.59254161835943,
-          68.35601380336598,
-          31.761592631162348,
-          71.38487875577506
+          524161.05000000005,
+          7584800,
+          1121940.5900000003,
+          7962743.58
         ],
         "nabo": [
           "AO-TO-FL-18"
@@ -403,7 +403,7 @@
   ],
   "meta": {
     "tittel": "Fylke",
-    "produsertUtc": "2023-02-15T11:56:16.045Z",
+    "produsertUtc": "2023-03-14T11:49:07.606Z",
     "utgiver": "Artsdatabanken",
     "url": null,
     "tool": {
@@ -415,7 +415,7 @@
       {
         "name": "fylke_mapped.json",
         "tittel": "Fylke mapped",
-        "produsertUtc": "2023-02-15T11:56:15.446Z",
+        "produsertUtc": "2023-03-14T11:49:06.729Z",
         "utgiver": "Artsdatabanken",
         "url": "https://github.com/Artsdatabanken/kommune/blob/master/fylke.json",
         "tool": {
@@ -427,7 +427,7 @@
           {
             "name": "fylke",
             "tittel": "Fylke",
-            "produsertUtc": "2023-02-15T11:56:13.738Z",
+            "produsertUtc": "2023-03-14T11:48:31.711Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n  OPTIONAL { ?item wdt:P300 ?code. }\r\n  OPTIONAL { ?item wdt:P571 ?inception. }\r\n  OPTIONAL { ?item wdt:P576 ?dissolved. }\r\n  OPTIONAL { ?item wdt:P2044 ?elevation. }\r\n  OPTIONAL { ?item wdt:P856 ?url. }\r\n  OPTIONAL { ?item wdt:P94 ?coa. }\r\n  OPTIONAL { ?item wdt:P41 ?flag. }\r\n  OPTIONAL { ?item wdt:P402 ?osm. }\r\n  OPTIONAL {\r\n    ?article schema:about ?item;\r\n      schema:isPartOf <https://no.wikipedia.org/>.\r\n  }\r\n SERVICE wikibase:label {\r\n    bd:serviceParam wikibase:language \"nb\".\r\n    ?item rdfs:label ?itemLabel.\r\n  }\r\n}\r\n",
             "tool": "stages/download",
@@ -437,7 +437,7 @@
           {
             "name": "fylkenabo",
             "tittel": "Fylkenabo",
-            "produsertUtc": "2023-02-15T11:56:12.418Z",
+            "produsertUtc": "2023-03-14T11:48:31.734Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n    wdt:P47 ?shares_border_with.\r\n}\r\n",
             "tool": "stages/download",
@@ -447,7 +447,7 @@
           {
             "name": "fylkebilde",
             "tittel": "Fylkebilde",
-            "produsertUtc": "2023-02-15T11:56:12.094Z",
+            "produsertUtc": "2023-03-14T11:48:31.668Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n    ?item wdt:P31 wd:Q192299;\r\n    OPTIONAL {\r\n      ?item wdt:P18 ?image.\r\n    }\r\n    OPTIONAL {\r\n      ?item wdt:P948 ?banner.\r\n    }\r\n  }\r\nORDER BY ?item\r\n",
             "tool": "stages/download",
@@ -459,7 +459,7 @@
       {
         "name": "fylke_meta.json",
         "tittel": "Fylke meta",
-        "produsertUtc": "2023-02-15T11:56:10.904Z",
+        "produsertUtc": "2023-03-14T11:48:27.603Z",
         "utgiver": "Artsdatabanken",
         "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.json",
         "elementer": 2,

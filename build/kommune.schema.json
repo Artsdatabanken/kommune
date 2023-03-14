@@ -247,7 +247,7 @@
   },
   "meta": {
     "tittel": "Kommune.schema",
-    "produsertUtc": "2023-02-15T11:56:16.099Z",
+    "produsertUtc": "2023-03-14T11:49:18.570Z",
     "utgiver": "Artsdatabanken",
     "url": null,
     "tool": {
@@ -259,7 +259,7 @@
       {
         "name": "fylke_mapped.json",
         "tittel": "Fylke mapped",
-        "produsertUtc": "2023-02-15T11:56:15.446Z",
+        "produsertUtc": "2023-03-14T11:49:06.729Z",
         "utgiver": "Artsdatabanken",
         "url": "https://github.com/Artsdatabanken/kommune/blob/master/fylke.json",
         "tool": {
@@ -271,7 +271,7 @@
           {
             "name": "fylke",
             "tittel": "Fylke",
-            "produsertUtc": "2023-02-15T11:56:13.738Z",
+            "produsertUtc": "2023-03-14T11:48:31.711Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n  OPTIONAL { ?item wdt:P300 ?code. }\r\n  OPTIONAL { ?item wdt:P571 ?inception. }\r\n  OPTIONAL { ?item wdt:P576 ?dissolved. }\r\n  OPTIONAL { ?item wdt:P2044 ?elevation. }\r\n  OPTIONAL { ?item wdt:P856 ?url. }\r\n  OPTIONAL { ?item wdt:P94 ?coa. }\r\n  OPTIONAL { ?item wdt:P41 ?flag. }\r\n  OPTIONAL { ?item wdt:P402 ?osm. }\r\n  OPTIONAL {\r\n    ?article schema:about ?item;\r\n      schema:isPartOf <https://no.wikipedia.org/>.\r\n  }\r\n SERVICE wikibase:label {\r\n    bd:serviceParam wikibase:language \"nb\".\r\n    ?item rdfs:label ?itemLabel.\r\n  }\r\n}\r\n",
             "tool": "stages/download",
@@ -281,7 +281,7 @@
           {
             "name": "fylkenabo",
             "tittel": "Fylkenabo",
-            "produsertUtc": "2023-02-15T11:56:12.418Z",
+            "produsertUtc": "2023-03-14T11:48:31.734Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q192299;\r\n    wdt:P47 ?shares_border_with.\r\n}\r\n",
             "tool": "stages/download",
@@ -291,7 +291,7 @@
           {
             "name": "fylkebilde",
             "tittel": "Fylkebilde",
-            "produsertUtc": "2023-02-15T11:56:12.094Z",
+            "produsertUtc": "2023-03-14T11:48:31.668Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n    ?item wdt:P31 wd:Q192299;\r\n    OPTIONAL {\r\n      ?item wdt:P18 ?image.\r\n    }\r\n    OPTIONAL {\r\n      ?item wdt:P948 ?banner.\r\n    }\r\n  }\r\nORDER BY ?item\r\n",
             "tool": "stages/download",
@@ -303,7 +303,7 @@
       {
         "name": "fylke_meta.json",
         "tittel": "Fylke meta",
-        "produsertUtc": "2023-02-15T11:56:10.904Z",
+        "produsertUtc": "2023-03-14T11:48:27.603Z",
         "utgiver": "Artsdatabanken",
         "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.json",
         "elementer": 2,
@@ -312,7 +312,7 @@
       {
         "name": "kommune_mapped.json",
         "tittel": "Kommune mapped",
-        "produsertUtc": "2023-02-15T11:56:15.793Z",
+        "produsertUtc": "2023-03-14T11:49:07.189Z",
         "utgiver": "Artsdatabanken",
         "url": "https://github.com/Artsdatabanken/kommune/blob/master/kommune.json",
         "tool": {
@@ -324,7 +324,7 @@
           {
             "name": "kommune",
             "tittel": "Kommune",
-            "produsertUtc": "2023-02-15T11:56:13.235Z",
+            "produsertUtc": "2023-03-14T11:48:32.593Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q755707 ;\r\n  OPTIONAL { ?item wdt:P1476 ?title. }\r\n  OPTIONAL { ?item wdt:P2044 ?elevation. }\r\n  OPTIONAL { ?item wdt:P856 ?url. }\r\n  OPTIONAL { ?item wdt:P94 ?coa. }\r\n  OPTIONAL { ?item wdt:P571 ?inception. }\r\n  OPTIONAL { ?item wdt:P576 ?dissolved. }\r\n  OPTIONAL { ?item wdt:P402 ?osm. }\r\n  OPTIONAL {\r\n    ?article schema:about ?item;\r\n      schema:isPartOf <https://no.wikipedia.org/>.\r\n  }\r\n SERVICE wikibase:label {\r\n    bd:serviceParam wikibase:language \"nb\".\r\n    ?item rdfs:label ?itemLabel.\r\n  }}\r\n",
             "tool": "stages/download",
@@ -334,7 +334,7 @@
           {
             "name": "kommunenummer",
             "tittel": "Kommunenummer",
-            "produsertUtc": "2023-02-15T11:56:12.733Z",
+            "produsertUtc": "2023-03-14T11:48:32.130Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?kommune wdt:P31 wd:Q755707.\r\n  ?kommune p:P2504 ?knr.\r\n  ?knr ps:P2504 ?code.\r\n OPTIONAL{ ?knr pq:P580 ?start_time.}\r\n OPTIONAL{ ?knr pq:P582 ?end_time.}\r\n}",
             "tool": "stages/download",
@@ -344,7 +344,7 @@
           {
             "name": "kommunenabo",
             "tittel": "Kommunenabo",
-            "produsertUtc": "2023-02-15T11:56:12.592Z",
+            "produsertUtc": "2023-03-14T11:48:32.067Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n  ?item wdt:P31 wd:Q755707;\r\n  wdt:P47 ?shares_border_with.\r\n}\r\n",
             "tool": "stages/download",
@@ -354,7 +354,7 @@
           {
             "name": "kommunebilde",
             "tittel": "Kommunebilde",
-            "produsertUtc": "2023-02-15T11:56:12.757Z",
+            "produsertUtc": "2023-03-14T11:48:31.984Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\r\n    ?item wdt:P31 wd:Q755707;\r\n    OPTIONAL {\r\n      ?item       wdt:P18 ?image.\r\n    }\r\n    OPTIONAL {\r\n      ?item wdt:P948 ?banner.\r\n    }\r\n    OPTIONAL { ?item wdt:P41 ?flag. }\r\n  }\r\nORDER BY ?item\r\n",
             "tool": "stages/download",
@@ -366,7 +366,7 @@
       {
         "name": "kommune_meta.json",
         "tittel": "Kommune meta",
-        "produsertUtc": "2023-02-15T11:56:10.914Z",
+        "produsertUtc": "2023-03-14T11:48:27.612Z",
         "utgiver": "Artsdatabanken",
         "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/kommune_meta.json",
         "elementer": 2,
