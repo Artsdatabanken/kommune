@@ -23,7 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: artsdatabanken/kommune
           path: './destinationRepo'
           token: ${{secrets.PUSH_TOKEN}}
       - name: Run deployment script
