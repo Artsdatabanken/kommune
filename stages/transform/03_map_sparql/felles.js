@@ -1,5 +1,8 @@
 const { io, log } = require("@artsdatabanken/lastejobb");
 
+// Inkluder områder som var gyldige på gitt dato
+const currentDate = new Date()
+
 const lesSparqlOutput = fil => io.lesTempJson(fil).results.bindings;
 
 function konverter(nivå) {
@@ -73,8 +76,8 @@ function flettKoder(r, nivå) {
     if (!item) return log.warn("Finner ikke item " + id);
     const fra = value(e.start_time);
     const til = value(e.end_time);
-    if (fra && fra > new Date()) return;
-    if (til && til < new Date()) return;
+    if (fra && fra > currentDate) return;
+    if (til && til < currentDate) return;
 
     item.code = value(e.code);
   });
@@ -82,14 +85,21 @@ function flettKoder(r, nivå) {
 
 function flettNaboer(r, nivå) {
   const nabo = lesSparqlOutput(nivå + "nabo");
-  debugger;
   nabo.forEach(e => {
     const idFra = e.item.value;
     const idTil = e.shares_border_with.value;
+    const startTime = value(e.start_time)
+    const endTime = value(e.end_time)
+    if (startTime && startTime > currentDate) 
+      return;
+    if (endTime && endTime < currentDate) 
+      return;
     const fra = r[idFra];
+    if (!fra)
+      return log.warn(`Finner nabo, men finner ikke artikkelen for ${idFra}.`);
     const til = r[idTil];
-    if (!fra || !til)
-      return log.warn("Finner ikke naboer " + idFra + " og " + idTil);
+    if (!til)
+      return log.info(`Hopper over grense mellom ${fra?.itemLabel} ${idFra} og ${idTil} fordi den er utenlands.`);
     fra.nabo = [...(fra.nabo || []), til.code].sort();
   });
 }

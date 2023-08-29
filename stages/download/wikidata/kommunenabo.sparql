@@ -1,4 +1,7 @@
 SELECT * WHERE {
   ?item wdt:P31 wd:Q755707;
   wdt:P47 ?shares_border_with.
+  ?shares_border ps:P47 ?shares_border_with.
+  OPTIONAL{ ?shares_border pq:P580 ?start_time.}
+  OPTIONAL{ ?shares_border pq:P582 ?end_time.}
 }
