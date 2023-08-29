@@ -46,14 +46,15 @@ jobs:
         env:
           REPO_KEY: ${{secrets.PUSH_TOKEN}}
           USERNAME: github-actions[bot]
-      - uses: actions/github-script@v6
-        name: Fyrer NiN
-        with:
-          github-token: ${{ secrets.PAT }}
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: 'artsdatabanken',
-              repo: 'nin-data-lastejobb',
-              workflow_id: 'deploy.yml',
-              ref: 'master'
-            })
+  dispatch:
+    - uses: actions/github-script@v6
+      name: Fyrer NiN
+      with:
+        github-token: ${{ secrets.PAT }}
+        script: |
+          await github.rest.actions.createWorkflowDispatch({
+            owner: 'artsdatabanken',
+            repo: 'nin-data-lastejobb',
+            workflow_id: 'deploy.yml',
+            ref: 'master'
+          })
