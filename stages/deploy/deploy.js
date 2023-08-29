@@ -121,3 +121,4 @@ if(changes_to_deploy_files_found()){
     console.log("!! Found no changed deployfile, aborting further git tasks (deployfiles are: 'fylke.*' or 'kommune.*' or 'dummy.*' )");
 }
 console.log("\n\n**********  Done  **********\n\n\n");
+//Added to fool check in github actions
