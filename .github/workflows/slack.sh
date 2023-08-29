@@ -1,0 +1,1 @@
+export curl -X POST -H 'Content-type: application/json' --data '{"text":"deploy stedsnavn-lastejobb"}' $1
