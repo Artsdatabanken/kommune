@@ -57,6 +57,6 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner: 'artsdatabanken',
               repo: 'nin-data-lastejobb',
-              workflow_id: 'deploy.yml',
+              workflow_id: 'dispatch.yml',
               ref: 'master'
             })
