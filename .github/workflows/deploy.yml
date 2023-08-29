@@ -60,4 +60,4 @@ jobs:
               workflow_id: 'deploy.yml',
               ref: 'master'
             })
-            console.log(result)
+            
