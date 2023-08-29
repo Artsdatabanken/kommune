@@ -2,18 +2,18 @@ name: build and publish kommune
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: "18.x"
       - run: npm install
       - run: npm update
       - run: npm run download
@@ -23,10 +23,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          path: './destinationRepo'
+          path: "./destinationRepo"
           token: ${{secrets.PUSH_TOKEN}}
       - name: Run deployment script
-        run: ./.github/workflows/deploy.sh 
+        run: ./.github/workflows/deploy.sh
         shell: bash
       - name: Create release
         uses: ncipollo/release-action@v1
@@ -49,3 +49,14 @@ jobs:
         env:
           REPO_KEY: ${{secrets.PUSH_TOKEN}}
           USERNAME: github-actions[bot]
+      - uses: actions/github-script@v6
+        name: Fyrer NiN
+        with:
+        github-token: ${{ secrets.PAT }}
+        script: |
+          await github.rest.actions.createWorkflowDispatch({
+            owner: 'artsdatabanken',
+            repo: 'nin-data-lastejobb',
+            workflow_id: 'deploy.yml',
+            ref: 'master'
+          })
