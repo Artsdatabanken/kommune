@@ -404,31 +404,31 @@
   ],
   "meta": {
     "tittel": "Fylke",
-    "produsertUtc": "2023-08-29T13:55:32.418Z",
+    "produsertUtc": "2023-08-29T13:56:08.570Z",
     "utgiver": "Artsdatabanken",
     "url": null,
     "tool": {
       "name": "@artsdatabanken/lastejobb",
-      "commit": "https://github.com/Artsdatabanken/kommune/master/7be2d92856bbf8b5ba026f669615ee027235ae98"
+      "commit": "https://github.com/Artsdatabanken/kommune/master/71663dda1a63b3982ca3911ae495ab87b711bcd4"
     },
     "elementer": 11,
     "source": [
       {
         "name": "fylke_mapped.json",
         "tittel": "Fylke mapped",
-        "produsertUtc": "2023-08-29T13:55:31.882Z",
+        "produsertUtc": "2023-08-29T13:56:08.026Z",
         "utgiver": "Artsdatabanken",
         "url": "https://github.com/Artsdatabanken/kommune/blob/master/fylke.json",
         "tool": {
           "name": "@artsdatabanken/lastejobb",
-          "commit": "https://github.com/Artsdatabanken/kommune/master/7be2d92856bbf8b5ba026f669615ee027235ae98"
+          "commit": "https://github.com/Artsdatabanken/kommune/master/71663dda1a63b3982ca3911ae495ab87b711bcd4"
         },
         "elementer": 10,
         "source": [
           {
             "name": "fylke",
             "tittel": "Fylke",
-            "produsertUtc": "2023-08-29T13:55:30.767Z",
+            "produsertUtc": "2023-08-29T13:56:06.904Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\n  ?item wdt:P31 wd:Q192299;\n  OPTIONAL { ?item wdt:P300 ?code. }\n  OPTIONAL { ?item wdt:P571 ?inception. }\n  OPTIONAL { ?item wdt:P576 ?dissolved. }\n  OPTIONAL { ?item wdt:P2044 ?elevation. }\n  OPTIONAL { ?item wdt:P856 ?url. }\n  OPTIONAL { ?item wdt:P94 ?coa. }\n  OPTIONAL { ?item wdt:P41 ?flag. }\n  OPTIONAL { ?item wdt:P402 ?osm. }\n  OPTIONAL {\n    ?article schema:about ?item;\n      schema:isPartOf <https://no.wikipedia.org/>.\n  }\n SERVICE wikibase:label {\n    bd:serviceParam wikibase:language \"nb\".\n    ?item rdfs:label ?itemLabel.\n  }\n}\n",
             "tool": "stages/download",
@@ -438,7 +438,7 @@
           {
             "name": "fylkenabo",
             "tittel": "Fylkenabo",
-            "produsertUtc": "2023-08-29T13:55:30.772Z",
+            "produsertUtc": "2023-08-29T13:56:06.906Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\n  ?item wdt:P31 wd:Q192299.\n  ?item p:P47 ?shares_border.\n  ?shares_border ps:P47 ?shares_border_with.\n OPTIONAL{ ?shares_border pq:P580 ?start_time.}\n OPTIONAL{ ?shares_border pq:P582 ?end_time.}\n}\n",
             "tool": "stages/download",
@@ -448,7 +448,7 @@
           {
             "name": "fylkebilde",
             "tittel": "Fylkebilde",
-            "produsertUtc": "2023-08-29T13:55:30.764Z",
+            "produsertUtc": "2023-08-29T13:56:06.900Z",
             "utgiver": "Artsdatabanken",
             "url": "https://query.wikidata.org/sparql?query=SELECT * WHERE {\n    ?item wdt:P31 wd:Q192299;\n    OPTIONAL {\n      ?item wdt:P18 ?image.\n    }\n    OPTIONAL {\n      ?item wdt:P948 ?banner.\n    }\n  }\nORDER BY ?item\n",
             "tool": "stages/download",
@@ -460,7 +460,7 @@
       {
         "name": "fylke_meta.json",
         "tittel": "Fylke meta",
-        "produsertUtc": "2023-08-29T13:55:28.914Z",
+        "produsertUtc": "2023-08-29T13:56:04.542Z",
         "utgiver": "Artsdatabanken",
         "url": "https://raw.githubusercontent.com/Artsdatabanken/kommune-kart/master/fylke_meta.json",
         "elementer": 2,
