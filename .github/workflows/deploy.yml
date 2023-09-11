@@ -33,19 +33,6 @@ jobs:
         with:
           artifacts: "artifacts.tar"
           tag: v_${{ github.run_number }}
-      - name: Push to kommune
-        run: |
-          cd destinationRepo
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "<>"
-          git config --global --list
-          git stage .
-          git commit -m "Updated from kommune v_${{ github.run_number }}"
-          git branch --set-upstream-to master
-          git push https://$USERNAME:$REPO_KEY@github.com/artsdatabanken/kommune.git
-        env:
-          REPO_KEY: ${{secrets.PUSH_TOKEN}}
-          USERNAME: github-actions[bot]
   workflow_dispatch:
     runs-on: ubuntu-latest
     steps:
