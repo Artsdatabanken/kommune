@@ -31,7 +31,7 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "artifacts.tar"
+          artifacts: "${{ $(basename $GITHUB_REPOSITORY) }}.tar.gz"
           tag: v_${{ github.run_number }}
   workflow_dispatch:
     runs-on: ubuntu-latest
